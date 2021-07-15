@@ -1,0 +1,20 @@
+.new-post-page__container{
+    .submit-form{
+        .submit-form__free{
+            text-align: center;
+            height: 343px;
+            width: 238px;
+            border-radius: 6px;
+            border: none;
+            box-shadow: 0 2px 10px 0 rgba(43,43,43,.1);
+            background: url("https://i.ibb.co/JF1V99c/Screenshot-20210711-150630.png");
+            position: relative;
+            margin: 2rem 0;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

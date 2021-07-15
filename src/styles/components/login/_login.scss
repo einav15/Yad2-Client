@@ -1,0 +1,310 @@
+.login-modal {
+    position: absolute;
+    top: calc(50vh - 215px);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    min-height: 430px;
+    width: 739px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.25);
+    z-index: 200;
+    @include tablet{
+        width: 90%;
+    }
+    .close-button {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 1.2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 287px;
+        min-width: 287px;
+        background: linear-gradient(229.5deg, #fa0, $orange);
+        @include tablet{
+            display: none;
+        }
+        .welcome-content {
+            padding: 30px;
+            line-height: 1.1;
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 400;
+                color: white;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+                margin: 0;
+                padding: 0;
+            }
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: white;
+                margin: 0;
+            }
+            #logo {
+                width: 70px;
+                height: 35px;
+            }
+            #lamp {
+                margin-top: 4rem;
+                width: 213px;
+                height: 108px;
+            }
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .form-header {
+            width: 300px;
+            margin: 1rem 0 10px 0;
+            @include mobile{
+                width: 90%;
+            }
+            h3 {
+                font-size: 1.5rem;
+                font-weight: 400;
+                color: #333;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 14px;
+                color: #999;
+                margin: 0 auto;
+            }
+        }
+
+        form {
+            height: 100%;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            @include tablet{
+                width: auto;
+            }
+            @include mobile{
+                width: 90%;
+            }
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                .password-container{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                       width: 266px;
+                       @include mobile{
+                           width: auto;
+                       }
+                    }
+                }
+                label {
+                    img{
+                        width: 16px;
+                        filter: invert(62%) sepia(33%) saturate(4155%) hue-rotate(114deg) brightness(99%) contrast(88%);
+                    }
+                    margin-top: 15px;
+                    display: block;
+                    font-size: 1.02rem;
+                    margin-bottom: 0.2rem;
+                }
+                input {
+                    height: 2.5rem;
+                    padding: 0 1rem;
+                    outline: none;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    border-radius: 5px;
+                    border-width: 1px;
+                    &::placeholder {
+                        font-size: 1rem;
+                        color: rgba(0, 0, 0, 0.25);
+                    }
+                }
+                select{
+                    height: 2.6rem;
+                    padding: 0 0.5rem 0 1.2rem;
+                    background: white;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    border-radius: 5px 0 0 5px;
+                    border-width: 1px;
+                    font-size: 1rem;
+                    @include mobile{
+                        width: 30%
+                    }
+                }
+                
+                #phone-num-input{
+                    border-radius: 0 5px 5px 0 ;
+                    @include mobile{
+                        width: 70%
+                    }
+                }
+
+                .react-datepicker__navigation{
+                    width: 10% !important;
+                    background: none;
+                    margin: 0;
+                }
+                #input-container,
+                #input-container-2 {
+                    border-radius: 5px;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    width: 100%;
+                    input {
+                        border: none;
+                        width: 90%;
+                    }
+                    span {
+                        svg {
+                            color: rgba(0, 0, 0, 0.25);
+                        }
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .password-repeat-label {
+                    margin-top: 0.5rem;
+                }
+                #password-label {
+                    margin-top: 1.2rem;
+                }
+                .error-border {
+                    border-color: red !important;
+                }
+                .valid-border {
+                    border-color: $green !important;
+                }
+                .visibility{
+                    width: 16px;
+                    position: absolute;
+                    left: 0.5rem;
+                    top: 0.75rem;
+                    filter: invert(70%) sepia(0%) saturate(1130%) hue-rotate(201deg) brightness(87%) contrast(91%);
+                }
+                .invisibility{
+                    width: 70px;
+                    height: 30px;
+                    position: absolute;
+                    left: -1rem;
+                    top: 0.31rem;
+                }
+                .signup-checkbox__container{
+                    display: flex;
+                    flex-direction: column;
+                    .signup-checkbox{
+                        width: 1rem;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                        height: 1rem;
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                
+            }
+            .login-btn__container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            button {
+                width: 100%;
+                margin-top: 1rem;
+                height: 2.5rem;
+                border-radius: 4px;
+                color: white;
+                background-color: $orange;
+                border: none;
+                &:hover {
+                    cursor: pointer;
+                }
+                &:disabled {
+                    background-color: $light-gray;
+                    color: #ccc;
+                    cursor: not-allowed;
+                }
+            }
+
+            b {
+                color: $orange;
+                font-weight: 400;
+                align-self: flex-end;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        p {
+            span {
+                color: $orange;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .password-space{
+            height: 12.5px;
+            width: 5px;
+        }
+    }
+}
+.error-text{
+    color: red;
+}
+#select-immediate-entry{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.notification{ 
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.25);
+    align-items: center;
+    right: 3%;
+    top: -12rem;
+    background: white;
+    border-radius: 8px;
+    padding: 0 1rem;
+    height: 50px;
+    width: 90%;
+    .notification-mark{
+        height: 1rem;
+        width: 1rem;
+        padding: 5px 10px;
+        border-radius: 50%;
+        margin: 0 1rem;
+        color: red;
+    }
+    .error{
+        background: #ffe8e8;
+    }
+}

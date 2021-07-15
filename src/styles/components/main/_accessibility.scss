@@ -1,0 +1,40 @@
+.accessibility{
+    width: 960px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include tablet{
+        width: 100%;
+    }
+    span{
+        color: #999999;
+        margin: 0 5px;
+    }
+    .accessibility__location-link{
+        color: #505050;
+    }
+    .accessibility__btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 5px 0;
+        height: 40px;
+        background-color: #002f75;
+        width: 100px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: .875rem;
+        line-height: 1.0625rem;
+        font-weight: 500;
+        border: none;
+        &:hover{
+            background-color: #002151;
+        }
+        img{
+          width: 26px;  
+          filter: invert(100%) sepia(36%) saturate(352%) hue-rotate(261deg) brightness(115%) contrast(100%);
+
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.search-dropdown__btn{
+    background: white !important;
+    border-color: #ccc !important;
+    line-height: 1rem;
+    max-width: none;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    span{
+        color: #999999 !important;
+    }
+}
+#asset-type-btn{
+    width: 146px;
+    max-width: none;
+    justify-content: space-between;
+    @include tablet{
+        width: 100%;
+    }
+}
+
+.asset-types-list{
+    list-style: none;
+    padding: 0 ;
+    li{
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 44px;
+        margin-bottom: 10px;
+        background: #f9f9f9f9;
+        &:hover{
+            cursor: pointer;
+        }
+        input{
+            width: auto !important;
+            margin-left: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        span{
+            font-size: 1rem;
+        }
+        img{
+            width: 20px;
+            padding: 10px;
+        }
+        
+     
+        
+    }
+    .asset-types-list__main-title{
+        border-bottom: 1px solid #eee;
+        width: 278px;
+        @include tablet{
+            width: auto;
+        }
+    }
+}
+
+#reg-color-for-btn{
+    color: #363636 !important;
+}
+
+.drop-footer{
+    border-top: 1px solid #eee;
+    background: none !important;
+    justify-content: flex-end !important;
+    margin: 0 !important;
+    &:hover{
+        cursor: auto !important;
+    }
+    .drop-footer__btn{
+        color: $orange;
+        background: none;
+        border: none;
+        font-weight: 500;
+        padding: 0;
+        width: auto;
+        &:hover{
+            color:#d86000;
+        }
+    }
+}
+
+.asset-type-list__item{
+    background: none !important;
+    justify-content: right !important;
+}
+
+.overlay{
+    position: absolute;
+    height: 44px;
+    width: 250px; 
+    @include tablet{
+        width: 70%;
+    }
+}
+
+.ol-type{
+    margin-top: -35px;
+}
+
+.boxes-amount-text {
+    color: #999999;
+}
+
+.property-type-length .search-dropdown{
+    @include tablet{
+        width: 100%;
+    }
+}

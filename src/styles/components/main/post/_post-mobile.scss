@@ -1,0 +1,94 @@
+.opened.mobile-post__container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    top: -5px;
+    right: 0;
+    @include tablet{
+        padding-top: 2rem;
+    }
+}
+.mobile-post__container{
+    border: 1px solid rgba(0,0,0,.1); 
+    width: 100%;
+    max-width: 695px;
+    display: flex;
+    background: white;
+    position: relative;
+    margin: 4px 0;
+    @include tablet{
+        max-width: none;
+    }
+    .exit-post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: $orange;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    &:hover{
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,.2),0 1px 18px 0 rgba(0,0,0,.12),0 6px 10px 0 rgba(0,0,0,.14);
+    }
+    img{
+        width: 125px;
+        height: 100px;
+        margin: 5px;
+    }
+    .mobile-post__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    p{
+        align-self: flex-start;
+        margin-right: 8px;
+        font-size: 0.85rem;
+        margin: 2px 0;
+        margin-right: 8px;
+
+    }
+    .price, b{
+        font-weight: 500;
+        font-size: 0.9rem;
+        margin: 5px;
+        margin-bottom: 3px;
+    }
+    .margin-bottom{
+        margin-bottom: 0.3rem;
+    }
+    .property-info{
+        display: flex;
+        justify-content: space-evenly;
+        width: 95%;
+        padding-top: 0.2rem;
+        border-top: 1px solid rgba(0,0,0,.1);
+        font-size: 0.8rem;
+        .property-info__div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            b{
+                font-size: 0.85rem;
+            }
+        }
+
+    }
+    .date{
+        position: absolute;
+        font-size: 0.8rem;
+        left: 1rem;
+        top: 1rem;
+    }
+    .date-opened{
+        top: 2rem;
+    }
+}

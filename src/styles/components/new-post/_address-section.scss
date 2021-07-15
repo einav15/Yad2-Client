@@ -1,0 +1,128 @@
+.new-post-page__container{
+    .recommendation{
+        position: absolute;
+        margin-right: 20rem;
+        margin-top: -3.2rem;
+        @include tablet{
+            max-width: 500px;
+            width: 90%;
+            margin: 0;
+            position: static;
+            margin-right: 2rem;
+        } 
+        @include mobile{
+            margin-right: 1rem;
+        }
+    }
+    .address-form__title{
+        color: #000;
+        font-size: 1em;
+        font-weight: 400;
+        padding-right: 5%;
+        margin-bottom: 0;
+        margin-top: 20px;
+        line-height: 22px;
+        @include mobile{
+            font-size: 14px;
+        }
+    }
+    form{
+        padding: 1% 5%;
+        font-size: 14px;
+        .input__container{ 
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+            margin: 1.5em 0;
+            @include tablet{
+                width: auto;
+            }
+            select, input{
+                height: 2.5rem;
+                padding: 0 1rem;
+                outline: none;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                border-width: 1px;
+                &:focus{
+                    border: 2px solid #1abc9c;
+                }
+            }
+            .address-form__small-input{
+                width: 40% !important;
+            }
+            .delete-input{
+                cursor: pointer;
+                position: absolute;
+                margin: 1.8rem 15.2rem 0 0;
+                @include tablet{
+                    margin-right: 0;
+                    left: 10%;
+                }
+            } 
+            .input-selector{
+                position: relative;
+                z-index: 201;
+                list-style: none;
+                padding: 0;
+                max-height: 320px;
+                background: white;
+                border: 1px solid #ccc;
+                overflow-y: scroll;
+                li{
+                    cursor: pointer;
+                    padding: 5px;
+                    &:hover{
+                        background: #eee;
+                    }
+                }
+            }
+        }
+    
+        .address-form-overlay{
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            z-index: 200;
+
+        }
+        .address-form__floors{
+            display: flex;
+            .input__container{
+                width: 175px;
+                margin-left: 2%;
+                @include tablet{
+                    width: 45% !important;
+                }
+            }
+        }
+        .address-form_btns{
+            display: flex;
+            padding: 0 3rem;
+            display: flex;
+            justify-content: space-between;
+            @include tablet{
+                padding: 0;
+            }
+
+            button{
+                background: white;
+                border: 1px solid #ccc ;
+                height: 35px;
+                width: 90px;
+                border-radius: 1rem;
+                &:hover{
+                    background: $orange;
+                    color: white;
+                    border: white;
+                }
+            }
+            .address-form_btns-next{
+                width: 155px;
+                color: $orange;
+                border-color: $orange;
+                font-weight: 500;
+            }
+        }
+    }
+}

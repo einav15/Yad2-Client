@@ -1,0 +1,122 @@
+.search-dropdown__btn.rooms-btn{
+    width: 100px;
+    justify-content: space-between;
+    @include tablet{
+        width: auto;
+        max-width: 100%;
+    }
+
+}
+.rooms-amount-btns__container{
+    display: flex;
+    @include tablet{
+        width: 20%;
+        position: relative;
+    }
+    .rooms-amounts{
+        margin: 0;
+        width: 75px;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .black-text-color{
+        color: #1f1f1f !important;
+    }
+}
+
+.rooms-length .search-dropdown{
+    width: 100%;
+    @include mobile{
+        width: 88.8% ;
+        flex-direction: row;
+    }
+    label{
+        font-size: 1rem;
+        position: absolute;
+        top: 5px;
+        margin-right: 5px;
+    }
+    .rooms-selectors__container{
+        position: relative;
+        width: 50%;
+    }
+    .add-margin-left{
+        margin-left: 5px;
+        border-left: 1px solid #ccc;
+    }
+    select{
+        background: white;
+        border: none;
+        width: 100%;
+        padding: 5px;
+        padding-right: 2rem;
+        font-size: 1rem;
+    }
+}
+ 
+.dropdown-triangle-background{
+    width: 50px;
+    height: 36px;
+    position: absolute;
+    top: 2.3rem;
+    right: 11px;
+    background: #ccc;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.dropdown-triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 25px;
+    height: 18px;
+    background: white;
+    position: absolute;
+    top: 2.42rem;
+    right: 1.5rem;
+    z-index: 10;
+}
+
+.rooms-amount-dropdown{
+    position: absolute;
+    overflow-y: scroll;
+    top: 3.35rem;
+    right: 0;
+
+    .rooms-amount-dropdown__list{
+        width: 61px;
+        list-style: none;
+        background: white;
+        padding: 0;
+        border: 1px solid #ccc;
+        .rooms-amount-dropdown__list-item{
+            padding: 11px 10px;
+            text-align: right;
+            &:hover{
+                cursor: pointer;
+                background: #eeeeee;
+            }
+        }
+    }
+}
+
+.rooms-amount-dropdown.offset-up-to{
+    left: 0;
+    right: auto;
+    
+}
+
+.dropdown-triangle-background.offset-up-to{
+    right: auto;
+    left: 11px; 
+    @include tablet{
+        right: 51% !important; 
+    }
+}
+.dropdown-triangle.offset-up-to{
+    right: auto;
+    left: 1.45rem;
+    @include tablet{
+        right: 51% !important; 
+    }
+    
+}
+

@@ -1,0 +1,334 @@
+[
+    {
+        "name": "נדל\"ן",
+        "links": [
+            [
+                {
+                    "name": "דירות למכירה"
+                },
+                {
+                    "name": "דירות להשכרה"
+                },
+                {
+                    "name": "שותפים"
+                },
+                {
+                    "name": "מסחרי"
+                },
+                {
+                    "name": "חיפוש על גבי מפה"
+                }
+            ],
+            [
+                {
+                    "name": "כונס נכסים",
+                    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTEycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDUxMiA1MTIuMDAwMSIgd2lkdGg9IjUxMnB0Ij4KPGcgaWQ9InN1cmZhY2UxIj4KPHBhdGggZD0iTSAxNSA1MTIgTCAyODcgNTEyIEMgMjk1LjI4NTE1NiA1MTIgMzAyIDUwNS4yODUxNTYgMzAyIDQ5NyBMIDMwMiA0ODEgQyAzMDIgNDY0LjQyOTY4OCAyODguNTcwMzEyIDQ1MSAyNzIgNDUxIEwgMjcyIDQzMy4wNjY0MDYgQyAyNzIgNDA5LjMyMDMxMiAyNTIuNjc5Njg4IDM5MCAyMjguOTMzNTk0IDM5MCBMIDczLjA2NjQwNiAzOTAgQyA0OS4zMjAzMTIgMzkwIDMwIDQwOS4zMjAzMTIgMzAgNDMzLjA2NjQwNiBMIDMwIDQ1MSBDIDEzLjQyOTY4OCA0NTEgMCA0NjQuNDI5Njg4IDAgNDgxIEwgMCA0OTcgQyAwIDUwNS4yODEyNSA2LjcxODc1IDUxMiAxNSA1MTIgWiBNIDE1IDUxMiAiIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMCUsMCUsMCUpO2ZpbGwtb3BhY2l0eToxOyIgLz4KPHBhdGggZD0iTSAxODcuNzM0Mzc1IDMzMC4zNDM3NSBDIDE5Ny43MDMxMjUgMzQzLjU3NDIxOSAyMTYuNTE1NjI1IDM0Ni4yMTg3NSAyMjkuNzQ2MDk0IDMzNi4yNDYwOTQgQyAyNDIuOTgwNDY5IDMyNi4yNzczNDQgMjQ1LjYyMTA5NCAzMDcuNDY0ODQ0IDIzNS42NTIzNDQgMjk0LjIzMDQ2OSBMIDE0NS4zNzg5MDYgMTc0LjQzNzUgQyAxMzUuNDA2MjUgMTYxLjIwMzEyNSAxMTYuNTk3NjU2IDE1OC41NjI1IDEwMy4zNjcxODggMTY4LjUzMTI1IEMgOTAuMTMyODEyIDE3OC41MDM5MDYgODcuNDg4MjgxIDE5Ny4zMTI1IDk3LjQ2MDkzOCAyMTAuNTQ2ODc1IFogTSAxODcuNzM0Mzc1IDMzMC4zNDM3NSAiIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMCUsMCUsMCUpO2ZpbGwtb3BhY2l0eToxOyIgLz4KPHBhdGggZD0iTSA0MDMuMzYzMjgxIDE2Ny44NTE1NjIgQyA0MTMuMzM1OTM4IDE4MS4wODIwMzEgNDMyLjE0NDUzMSAxODMuNzI2NTYyIDQ0NS4zNzg5MDYgMTczLjc1MzkwNiBDIDQ1OC42MDkzNzUgMTYzLjc4NTE1NiA0NjEuMjUzOTA2IDE0NC45NzY1NjIgNDUxLjI4MTI1IDEzMS43NDIxODggTCAzNjEuMDA3ODEyIDExLjk0OTIxOSBDIDM1MS4wMzkwNjIgLTEuMjg1MTU2IDMzMi4yMjY1NjIgLTMuOTI5Njg4IDMxOC45OTYwOTQgNi4wNDI5NjkgQyAzMDUuNzY1NjI1IDE2LjAxNTYyNSAzMDMuMTIxMDk0IDM0LjgyNDIxOSAzMTMuMDkzNzUgNDguMDU4NTk0IFogTSA0MDMuMzYzMjgxIDE2Ny44NTE1NjIgIiBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpub256ZXJvO2ZpbGw6cmdiKDAlLDAlLDAlKTtmaWxsLW9wYWNpdHk6MTsiIC8+CjxwYXRoIGQ9Ik0gMzM3LjU2MjUgMjU1IEMgMzU5LjczNDM3NSAyMzguMjkyOTY5IDM3Ni4zNzg5MDYgMjE3LjU0Njg3NSAzODYuNzg5MDYyIDE5NS43MDMxMjUgTCAyODEuNzUgNTYuMzEyNSBDIDI1Ny44ODI4MTIgNjAuMzAwNzgxIDIzMy4zNTU0NjkgNzAuNTc4MTI1IDIxMS4xNzk2ODggODcuMjg5MDYyIEMgMTg5LjAwNzgxMiAxMDMuOTk2MDk0IDE3Mi4zNjMyODEgMTI0Ljc0MjE4OCAxNjEuOTUzMTI1IDE0Ni41ODIwMzEgTCAyNjYuOTkyMTg4IDI4NS45ODA0NjkgQyAyOTAuODU5Mzc1IDI4MS45OTIxODggMzE1LjM4NjcxOSAyNzEuNzEwOTM4IDMzNy41NjI1IDI1NSBaIE0gMzM3LjU2MjUgMjU1ICIgc3R5bGU9IiBzdHJva2U6bm9uZTtmaWxsLXJ1bGU6bm9uemVybztmaWxsOnJnYigwJSwwJSwwJSk7ZmlsbC1vcGFjaXR5OjE7IiAvPgo8cGF0aCBkPSJNIDM3OC4wNjY0MDYgMjU4LjkwNjI1IEMgMzcxLjA4MjAzMSAyNjYuMDIzNDM4IDM2My43MjY1NjIgMjcyLjg0NzY1NiAzNTUuNjE3MTg4IDI3OC45NjA5MzggQyAzNDcuNTAzOTA2IDI4NS4wNzAzMTIgMzM4LjkxNDA2MiAyOTAuMjYxNzE5IDMzMC4xNTIzNDQgMjk1LjAxNTYyNSBMIDM0OS43MTA5MzggMzIwLjk3MjY1NiBMIDM5Ny42Mjg5MDYgMjg0Ljg2NzE4OCBaIE0gMzc4LjA2NjQwNiAyNTguOTA2MjUgIiBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpub256ZXJvO2ZpbGw6cmdiKDAlLDAlLDAlKTtmaWxsLW9wYWNpdHk6MTsiIC8+CjxwYXRoIGQ9Ik0gNDE1LjY4MzU5NCAzMDguODI0MjE5IEwgMzY3Ljc2NTYyNSAzNDQuOTI5Njg4IEwgNDU4LjAzOTA2MiA0NjQuNzI2NTYyIEMgNDY4LjAxMTcxOSA0NzcuOTYwOTM4IDQ4Ni44MjAzMTIgNDgwLjYwMTU2MiA1MDAuMDUwNzgxIDQ3MC42MzI4MTIgQyA1MTMuMjg1MTU2IDQ2MC42NjAxNTYgNTE1LjkyNTc4MSA0NDEuODUxNTYyIDUwNS45NTcwMzEgNDI4LjYxNzE4OCBaIE0gNDE1LjY4MzU5NCAzMDguODI0MjE5ICIgc3R5bGU9IiBzdHJva2U6bm9uZTtmaWxsLXJ1bGU6bm9uemVybztmaWxsOnJnYigwJSwwJSwwJSk7ZmlsbC1vcGFjaXR5OjE7IiAvPgo8L2c+Cjwvc3ZnPg=="
+                },
+                {
+                    "name": "מדד הנדל\"ן",
+                    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjAwMSA1MTIuMDAxIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDAxIDUxMi4wMDE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNTA2LjM1LDgwLjY5OWMtNy41Ny03LjU4OS0xOS44MzQtNy42MDktMjcuNDMtMC4wNTJMMzMxLjY2MiwyMjcuMzFsLTQyLjU1Ny00Mi41NTdjLTcuNTc3LTcuNTctMTkuODQ2LTcuNTc3LTI3LjQyMywwDQoJCQlMODkuMDc2LDM1Ny4zNmMtNy41NzcsNy41Ny03LjU3NywxOS44NTMsMCwyNy40MjNjMy43ODIsMy43ODgsOC43NDcsNS42ODIsMTMuNzEyLDUuNjgyYzQuOTU4LDAsOS45My0xLjg5NCwxMy43MTEtNS42ODINCgkJCWwxNTguODk1LTE1OC44ODhsNDIuNTMxLDQyLjUyNGM3LjU3LDcuNTcsMTkuODA4LDcuNTc3LDI3LjM5NywwLjAzMmwxNjAuOTctMTYwLjMyMw0KCQkJQzUxMy44ODEsMTAwLjU3MSw1MTMuOTA3LDg4LjI4OCw1MDYuMzUsODAuNjk5eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDkxLjk2LDQ0OS45NEgzOC43ODhWNDIuNjY3YzAtMTAuNzEyLTguNjgyLTE5LjM5NC0xOS4zOTQtMTkuMzk0UzAsMzEuOTU1LDAsNDIuNjY3djQyNi42NjcNCgkJCWMwLDEwLjcxMiw4LjY4MiwxOS4zOTQsMTkuMzk0LDE5LjM5NEg0OTEuOTZjMTAuNzEyLDAsMTkuMzk0LTguNjgyLDE5LjM5NC0xOS4zOTRDNTExLjM1NCw0NTguNjIyLDUwMi42NzIsNDQ5Ljk0LDQ5MS45Niw0NDkuOTR6DQoJCQkiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ5Mi42MDYsNzQuMzQ0SDM0Ny4xNTJjLTEwLjcxMiwwLTE5LjM5NCw4LjY4Mi0xOS4zOTQsMTkuMzk0czguNjgyLDE5LjM5NCwxOS4zOTQsMTkuMzk0aDEyNi4wNjF2MTI2LjA2Nw0KCQkJYzAsMTAuNzA1LDguNjgyLDE5LjM5NCwxOS4zOTQsMTkuMzk0UzUxMiwyNDkuOTA0LDUxMiwyMzkuMTkyVjkzLjczOEM1MTIsODMuMDI2LDUwMy4zMTgsNzQuMzQ0LDQ5Mi42MDYsNzQuMzQ0eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
+                },
+                {
+                    "name": "יד1 דירות חדשות",
+                    "icon": "https://i.ibb.co/mq3x5k8/Logo-Makr-0-SKEom.png"
+                },
+                {
+                    "name": "הערכת שווי נכס",
+                    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDEyOCAxMjgiPjxnPjxwYXRoIGQ9Ik0xMDYuNSwwaC04NWE3Ljc1OSw3Ljc1OSwwLDAsMC03Ljc1LDcuNzV2MTEyLjVBNy43NTksNy43NTksMCwwLDAsMjEuNSwxMjhoODVhNy43NTksNy43NTksMCwwLDAsNy43NS03Ljc1VjcuNzQ4QTcuNzU5LDcuNzU5LDAsMCwwLDEwNi41LDBabTQuMjUsMTIwLjI0OGE0LjI1NCw0LjI1NCwwLDAsMS00LjI1LDQuMjVoLTg1YTQuMjU0LDQuMjU0LDAsMCwxLTQuMjUtNC4yNVY3Ljc0OEE0LjI1NCw0LjI1NCwwLDAsMSwyMS41LDMuNWg4NWE0LjI1NCw0LjI1NCwwLDAsMSw0LjI1LDQuMjVaIi8+PHBhdGggZD0iTTEwMi41LDEwaC03N2ExLjc0OSwxLjc0OSwwLDAsMC0xLjc1LDEuNzV2MjJBMS43NDksMS43NDksMCwwLDAsMjUuNSwzNS41aDc3YTEuNzQ5LDEuNzQ5LDAsMCwwLDEuNzUtMS43NXYtMjJBMS43NDksMS43NDksMCwwLDAsMTAyLjUsMTBabS0xLjc1LDIySDI3LjI1VjEzLjVoNzMuNVoiLz48cGF0aCBkPSJNNzMuNSw5Ny41MjNoLTE5YTEuNzUsMS43NSwwLDAsMC0xLjc1LDEuNzV2MTYuOTczQTEuNzQ5LDEuNzQ5LDAsMCwwLDU0LjUsMTE4aDE5YTEuNzQ5LDEuNzQ5LDAsMCwwLDEuNzUtMS43NVY5OS4yNzNBMS43NSwxLjc1LDAsMCwwLDczLjUsOTcuNTIzWk03MS43NDksMTE0LjVoLTE1LjVWMTAxLjAyM2gxNS41WiIvPjxwYXRoIGQ9Ik00NC41MjksOTcuNTIzSDI1LjVhMS43NSwxLjc1LDAsMCwwLTEuNzUsMS43NXYxNi45NzNBMS43NDksMS43NDksMCwwLDAsMjUuNSwxMThINDQuNTI5YTEuNzQ5LDEuNzQ5LDAsMCwwLDEuNzUtMS43NVY5OS4yNzNBMS43NSwxLjc1LDAsMCwwLDQ0LjUyOSw5Ny41MjNaTTQyLjc3OSwxMTQuNUgyNy4yNVYxMDEuMDIzSDQyLjc3OVoiLz48cGF0aCBkPSJNNzMuNSw2OS43NjZoLTE5YTEuNzQ5LDEuNzQ5LDAsMCwwLTEuNzUsMS43NVY4OC40ODhhMS43NDksMS43NDksMCwwLDAsMS43NSwxLjc1aDE5YTEuNzQ5LDEuNzQ5LDAsMCwwLDEuNzUtMS43NVY3MS41MTZBMS43NDksMS43NDksMCwwLDAsNzMuNSw2OS43NjZabS0xLjc1LDE2Ljk3MmgtMTUuNVY3My4yNjZoMTUuNVoiLz48cGF0aCBkPSJNNDQuNTI5LDY5Ljc2NkgyNS41YTEuNzQ5LDEuNzQ5LDAsMCwwLTEuNzUsMS43NVY4OC40ODhhMS43NDksMS43NDksMCwwLDAsMS43NSwxLjc1SDQ0LjUyOWExLjc0OSwxLjc0OSwwLDAsMCwxLjc1LTEuNzVWNzEuNTE2QTEuNzQ5LDEuNzQ5LDAsMCwwLDQ0LjUyOSw2OS43NjZabS0xLjc1LDE2Ljk3MkgyNy4yNVY3My4yNjZINDIuNzc5WiIvPjxwYXRoIGQ9Ik0xMDIuNSw2OS43NjZIODMuNDcxYTEuNzQ5LDEuNzQ5LDAsMCwwLTEuNzUsMS43NXY0NC43M2ExLjc0OSwxLjc0OSwwLDAsMCwxLjc1LDEuNzVIMTAyLjVhMS43NDksMS43NDksMCwwLDAsMS43NS0xLjc1VjcxLjUxNkExLjc0OSwxLjc0OSwwLDAsMCwxMDIuNSw2OS43NjZabS0xLjc1LDQ0LjczSDg1LjIyMVY3My4yNjZIMTAwLjc1WiIvPjxwYXRoIGQ9Ik03My41LDQyLjAwOGgtMTlhMS43NDksMS43NDksMCwwLDAtMS43NSwxLjc1VjYwLjczYTEuNzQ5LDEuNzQ5LDAsMCwwLDEuNzUsMS43NWgxOWExLjc0OSwxLjc0OSwwLDAsMCwxLjc1LTEuNzVWNDMuNzU4QTEuNzQ5LDEuNzQ5LDAsMCwwLDczLjUsNDIuMDA4Wk03MS43NDksNTguOThoLTE1LjVWNDUuNTA4aDE1LjVaIi8+PHBhdGggZD0iTTQ0LjUyOSw0Mi4wMDhIMjUuNWExLjc0OSwxLjc0OSwwLDAsMC0xLjc1LDEuNzVWNjAuNzNhMS43NDksMS43NDksMCwwLDAsMS43NSwxLjc1SDQ0LjUyOWExLjc0OSwxLjc0OSwwLDAsMCwxLjc1LTEuNzVWNDMuNzU4QTEuNzQ5LDEuNzQ5LDAsMCwwLDQ0LjUyOSw0Mi4wMDhaTTQyLjc3OSw1OC45OEgyNy4yNVY0NS41MDhINDIuNzc5WiIvPjxwYXRoIGQ9Ik0xMDIuNSw0Mi4wMDhIODMuNDcxYTEuNzQ5LDEuNzQ5LDAsMCwwLTEuNzUsMS43NVY2MC43M2ExLjc0OSwxLjc0OSwwLDAsMCwxLjc1LDEuNzVIMTAyLjVhMS43NDksMS43NDksMCwwLDAsMS43NS0xLjc1VjQzLjc1OEExLjc0OSwxLjc0OSwwLDAsMCwxMDIuNSw0Mi4wMDhaTTEwMC43NSw1OC45OEg4NS4yMjFWNDUuNTA4SDEwMC43NVoiLz48L2c+PC9zdmc+Cg=="
+                },
+                {
+                    "name": "משרדי תיווך בישראל",
+                    "icon": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMXB0IiB2aWV3Qm94PSIwIDEgNTExIDUxMS45OTkiIHdpZHRoPSI1MTFwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNDk4LjY5OTIxOSAyMjIuNjk1MzEyYy0uMDE1NjI1LS4wMTE3MTgtLjAyNzM0NC0uMDI3MzQzLS4wMzkwNjMtLjAzOTA2MmwtMjA4Ljg1NTQ2OC0yMDguODQ3NjU2Yy04LjkwMjM0NC04LjkwNjI1LTIwLjczODI4Mi0xMy44MDg1OTQtMzMuMzI4MTI2LTEzLjgwODU5NC0xMi41ODk4NDMgMC0yNC40MjU3ODEgNC45MDIzNDQtMzMuMzMyMDMxIDEzLjgwODU5NGwtMjA4Ljc0NjA5MyAyMDguNzQyMTg3Yy0uMDcwMzEzLjA3MDMxMy0uMTQ0NTMyLjE0NDUzMS0uMjEwOTM4LjIxNDg0NC0xOC4yODEyNSAxOC4zODY3MTktMTguMjUgNDguMjE4NzUuMDg5ODQ0IDY2LjU1ODU5NCA4LjM3ODkwNiA4LjM4MjgxMiAxOS40NDE0MDYgMTMuMjM0Mzc1IDMxLjI3MzQzNyAxMy43NDYwOTMuNDg0Mzc1LjA0Njg3Ni45Njg3NS4wNzAzMTMgMS40NTcwMzEuMDcwMzEzaDguMzIwMzEzdjE1My42OTUzMTNjMCAzMC40MTc5NjggMjQuNzUgNTUuMTY0MDYyIDU1LjE2Nzk2OSA1NS4xNjQwNjJoODEuNzEwOTM3YzguMjg1MTU3IDAgMTUtNi43MTg3NSAxNS0xNXYtMTIwLjVjMC0xMy44Nzg5MDYgMTEuMjkyOTY5LTI1LjE2Nzk2OSAyNS4xNzE4NzUtMjUuMTY3OTY5aDQ4LjE5NTMxM2MxMy44Nzg5MDYgMCAyNS4xNjc5NjkgMTEuMjg5MDYzIDI1LjE2Nzk2OSAyNS4xNjc5Njl2MTIwLjVjMCA4LjI4MTI1IDYuNzE0ODQzIDE1IDE1IDE1aDgxLjcxMDkzN2MzMC40MjE4NzUgMCA1NS4xNjc5NjktMjQuNzQ2MDk0IDU1LjE2Nzk2OS01NS4xNjQwNjJ2LTE1My42OTUzMTNoNy43MTg3NWMxMi41ODU5MzcgMCAyNC40MjE4NzUtNC45MDIzNDQgMzMuMzMyMDMxLTEzLjgxMjUgMTguMzU5Mzc1LTE4LjM2NzE4NyAxOC4zNjcxODctNDguMjUzOTA2LjAyNzM0NC02Ni42MzI4MTN6bS0yMS4yNDIxODggNDUuNDIxODc2Yy0zLjIzODI4MSAzLjIzODI4MS03LjU0Mjk2OSA1LjAyMzQzNy0xMi4xMTcxODcgNS4wMjM0MzdoLTIyLjcxODc1Yy04LjI4NTE1NiAwLTE1IDYuNzE0ODQ0LTE1IDE1djE2OC42OTUzMTNjMCAxMy44NzUtMTEuMjg5MDYzIDI1LjE2NDA2Mi0yNS4xNjc5NjkgMjUuMTY0MDYyaC02Ni43MTA5Mzd2LTEwNS41YzAtMzAuNDE3OTY5LTI0Ljc0NjA5NC01NS4xNjc5NjktNTUuMTY3OTY5LTU1LjE2Nzk2OWgtNDguMTk1MzEzYy0zMC40MjE4NzUgMC01NS4xNzE4NzUgMjQuNzUtNTUuMTcxODc1IDU1LjE2Nzk2OXYxMDUuNWgtNjYuNzEwOTM3Yy0xMy44NzUgMC0yNS4xNjc5NjktMTEuMjg5MDYyLTI1LjE2Nzk2OS0yNS4xNjQwNjJ2LTE2OC42OTUzMTNjMC04LjI4NTE1Ni02LjcxNDg0NC0xNS0xNS0xNWgtMjIuMzI4MTI1Yy0uMjM0Mzc1LS4wMTU2MjUtLjQ2NDg0NC0uMDI3MzQ0LS43MDMxMjUtLjAzMTI1LTQuNDY4NzUtLjA3ODEyNS04LjY2MDE1Ni0xLjg1MTU2My0xMS44MDA3ODEtNC45OTYwOTQtNi42Nzk2ODgtNi42Nzk2ODctNi42Nzk2ODgtMTcuNTUwNzgxIDAtMjQuMjM0Mzc1LjAwMzkwNiAwIC4wMDM5MDYtLjAwMzkwNi4wMDc4MTItLjAwNzgxMmwuMDExNzE5LS4wMTE3MTkgMjA4Ljg0NzY1Ni0yMDguODM5ODQ0YzMuMjM0Mzc1LTMuMjM4MjgxIDcuNTM1MTU3LTUuMDE5NTMxIDEyLjExMzI4MS01LjAxOTUzMSA0LjU3NDIxOSAwIDguODc1IDEuNzgxMjUgMTIuMTEzMjgyIDUuMDE5NTMxbDIwOC44MDA3ODEgMjA4Ljc5Njg3NWMuMDMxMjUuMDMxMjUuMDY2NDA2LjA2MjUuMDk3NjU2LjA5Mzc1IDYuNjQ0NTMxIDYuNjkxNDA2IDYuNjMyODEzIDE3LjUzOTA2My0uMDMxMjUgMjQuMjA3MDMyem0wIDAiLz48L3N2Zz4="
+                }
+            ]
+        ]
+    },
+    {
+        "name": "רכב",
+        "links": [
+            [
+                {
+                    "name": "פרטי"
+                },
+                {
+                    "name": "מסחרי"
+                },
+                {
+                    "name": "ג'יפים"
+                },
+                {
+                    "name": "אופנועים"
+                },
+                {
+                    "name": "קטנועים"
+                },
+                {
+                    "name": "מיוחדים"
+                },
+                {
+                    "name": "אביזרים"
+                },
+                {
+                    "name": "משאיות"
+                },
+                {
+                    "name": "כלי שיט"
+                }
+            ],
+            [
+                {
+                    "name": "קטלוג רכבים",
+                    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI5NyAyOTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5NyAyOTc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0yNzIuMTMyLDEwOC4zMjNsNC42MTUtNC42MTZjMy45MzItMy45MzIsMy45MzItMTAuMzA3LDAtMTQuMjM4Yy0zLjkzMy0zLjkzMS0xMC4zMDYtMy45MzEtMTQuMjM4LDBsLTQuNzMsNC43MzENCgkJbC05LjA4NS0zNi4zMzljLTMuMjYxLTEzLjAzOS0xNi4zNDMtMjMuMjUzLTI5Ljc4Mi0yMy4yNTNINzguMDg3Yy0xMy40MzksMC0yNi41MjEsMTAuMjE0LTI5Ljc4MiwyMy4yNTRMMzkuMjIxLDk0LjJsLTQuNzMtNC43MzENCgkJYy0zLjkzMy0zLjkzMS0xMC4zMDYtMy45MzEtMTQuMjM4LDBjLTMuOTMyLDMuOTMyLTMuOTMyLDEwLjMwNywwLDE0LjIzOGw0LjYxNSw0LjYxNkMxMC4xNTYsMTE1LjUzNSwwLDEzMC42NjMsMCwxNDguMTIydjM1LjM2Mw0KCQljMCwxNC4yNzIsNi43OTEsMjYuOTgsMTcuMzAzLDM1LjA4N3YxNy42NDRjMCwxNC40MzQsMTEuNzQyLDI2LjE3NiwyNi4xNzcsMjYuMTc2aDE5LjY5NmMxNC40MzQsMCwyNi4xNzYtMTEuNzQyLDI2LjE3Ni0yNi4xNzYNCgkJdi04LjQzMmgxMTguMjk1djguNDMyYzAsMTQuNDM0LDExLjc0MiwyNi4xNzYsMjYuMTc2LDI2LjE3NmgxOS42OTZjMTQuNDM0LDAsMjYuMTc3LTExLjc0MiwyNi4xNzctMjYuMTc2di0xNy42NDINCgkJQzI5MC4yMDgsMjEwLjQ2NywyOTcsMTk3Ljc1OSwyOTcsMTgzLjQ4NXYtMzUuMzYzQzI5NywxMzAuNjYzLDI4Ni44NDQsMTE1LjUzNSwyNzIuMTMyLDEwOC4zMjN6IE01OC4zNDksMTAwLjcwNWw5LjQ5LTM3Ljk1OQ0KCQljMS4wMjgtNC4xMTQsNi4wMDktOC4wMDMsMTAuMjQ4LTguMDAzaDE0MC44MjRjNC4yMzksMCw5LjIyLDMuODg5LDEwLjI0OCw4LjAwM2w5LjQ5MSwzNy45NmMwLjI2MiwxLjA1MywwLjIxLDEuOTQ5LTAuMTQxLDIuMzk5DQoJCWMtMC4zNTMsMC40NS0xLjIxLDAuNzE5LTIuMjk0LDAuNzE5SDYwLjc4M2MtMS4wODQsMC0xLjk0MS0wLjI2OS0yLjI5NC0wLjcxOUM1OC4xMzksMTAyLjY1NSw1OC4wODcsMTAxLjc1OSw1OC4zNDksMTAwLjcwNXoNCgkJIE0yMC4xMzYsMTQ4LjEyMmMwLTEzLjMyMiwxMC44NC0yNC4xNjIsMjQuMTYyLTI0LjE2MmgyMDguNDA0YzEzLjMyMiwwLDI0LjE2MiwxMC44NCwyNC4xNjIsMjQuMTYydjM1LjM2Mw0KCQljMCwxMy4zMjMtMTAuODQsMjQuMTYzLTI0LjE2MiwyNC4xNjNINDQuMjk4Yy0xMy4zMjIsMC0yNC4xNjItMTAuODQtMjQuMTYyLTI0LjE2M1YxNDguMTIyeiBNNjkuMjE2LDIzNi4yMTYNCgkJYzAsMy4yNzMtMi43NjcsNi4wNC02LjA0LDYuMDRINDMuNDc5Yy0zLjI3NCwwLTYuMDQxLTIuNzY3LTYuMDQxLTYuMDR2LTguOTY1YzIuMjM3LDAuMzQ5LDQuNTI2LDAuNTMzLDYuODU5LDAuNTMzaDI0LjkxOFYyMzYuMjE2DQoJCXogTTI1OS41NiwyMzYuMjE2YzAsMy4yNzMtMi43NjcsNi4wNC02LjA0MSw2LjA0aC0xOS42OTZjLTMuMjczLDAtNi4wNC0yLjc2Ny02LjA0LTYuMDR2LTguNDMyaDI0LjkyDQoJCWMyLjMzMiwwLDQuNjIxLTAuMTg1LDYuODU4LTAuNTMzVjIzNi4yMTZ6Ii8+DQoJPHBhdGggZD0iTTExMy44OSwxNzUuODcyaDY5LjIxOWM1LjU2LDAsMTAuMDY3LTQuNTA4LDEwLjA2Ny0xMC4wNjhjMC01LjU2LTQuNTA4LTEwLjA2Ny0xMC4wNjctMTAuMDY3SDExMy44OQ0KCQljLTUuNTYsMC0xMC4wNjcsNC41MDgtMTAuMDY3LDEwLjA2N0MxMDMuODIyLDE3MS4zNjQsMTA4LjMzLDE3NS44NzIsMTEzLjg5LDE3NS44NzJ6Ii8+DQoJPHBhdGggZD0iTTYxLjk3OSwxOTMuMTc2YzE1LjA5MywwLDI3LjM3Mi0xMi4yNzksMjcuMzcyLTI3LjM3MmMwLTE1LjA5My0xMi4yNzktMjcuMzcxLTI3LjM3Mi0yNy4zNzFzLTI3LjM3MSwxMi4yNzgtMjcuMzcxLDI3LjM3MQ0KCQlDMzQuNjA3LDE4MC44OTYsNDYuODg2LDE5My4xNzYsNjEuOTc5LDE5My4xNzZ6IE02MS45NzksMTU4LjU2N2MzLjk5LDAsNy4yMzYsMy4yNDcsNy4yMzYsNy4yMzZjMCwzLjk5LTMuMjQ2LDcuMjM2LTcuMjM2LDcuMjM2DQoJCWMtMy45ODksMC03LjIzNi0zLjI0Ni03LjIzNi03LjIzNkM1NC43NDIsMTYxLjgxNCw1Ny45ODksMTU4LjU2Nyw2MS45NzksMTU4LjU2N3oiLz4NCgk8cGF0aCBkPSJNMjM1LjAyLDE5My4xNzZjMTUuMDkzLDAsMjcuMzcxLTEyLjI3OSwyNy4zNzEtMjcuMzcyYzAtMTUuMDkzLTEyLjI3OC0yNy4zNzEtMjcuMzcxLTI3LjM3MQ0KCQljLTE1LjA5MywwLTI3LjM3MiwxMi4yNzgtMjcuMzcyLDI3LjM3MUMyMDcuNjQ3LDE4MC44OTYsMjE5LjkyNywxOTMuMTc2LDIzNS4wMiwxOTMuMTc2eiBNMjM1LjAyLDE1OC41NjcNCgkJYzMuOTg5LDAsNy4yMzYsMy4yNDcsNy4yMzYsNy4yMzZjMCwzLjk5LTMuMjQ3LDcuMjM2LTcuMjM2LDcuMjM2Yy0zLjk5LDAtNy4yMzYtMy4yNDYtNy4yMzYtNy4yMzYNCgkJQzIyNy43ODMsMTYxLjgxNCwyMzEuMDI5LDE1OC41NjcsMjM1LjAyLDE1OC41Njd6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
+                },
+                {
+                    "name": "מחירון רכב",
+                    "icon": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQxNi42NjYgMjAwLjgzNGgtNi43OTdsLTI2LjA5MS01Mi4xNzljLTEyLjM5NS0yNC43OTctNDMuODIxLTQ0LjIyMS03MS41NDYtNDQuMjIxaC0xNDQuNTk5Yy0yNy43MjQgMC01OS4xNSAxOS40MjQtNzEuNTQ0IDQ0LjIxOWwtMjYuMDkzIDUyLjE4MWgtMTQuODNjLTMwLjQxOCAwLTU1LjE2NiAyNC43NDctNTUuMTY2IDU1LjE2NnY0OC4yMDFjMCAzMC40MTggMjQuNzQ4IDU1LjE2NiA1NS4xNjYgNTUuMTY2aDE4Ljk1YzYuNzUzIDI3LjYyOSAzMS43MDcgNDguMTk5IDYxLjM4NyA0OC4xOTkgMjkuNjc5IDAgNTQuNjMxLTIwLjU3IDYxLjM4NC00OC4xOTloMTE4LjIzYzYuNzUzIDI3LjYyOSAzMS43MDYgNDguMTk5IDYxLjM4NiA0OC4xOTkgMjkuNjc5IDAgNTQuNjMxLTIwLjU3IDYxLjM4NC00OC4xOTloMTguOTQ2YzMwLjQyIDAgNTUuMTY4LTI0Ljc0OCA1NS4xNjgtNTUuMTY2di04LjAzNWMtLjAwMS01Mi41NjYtNDIuNzY4LTk1LjMzMi05NS4zMzUtOTUuMzMyem0tNTkuNzIxLTM4Ljc2NCAxOS4zODMgMzguNzY0aC0xMjEuMzkydi02Ni40aDU3LjI5NmMxNi40NiAwIDM3LjM1NCAxMi45MTMgNDQuNzEzIDI3LjYzNnptLTIzNC4wMjItLjAwMmM3LjM1OC0xNC43MjEgMjguMjUxLTI3LjYzNCA0NC43MS0yNy42MzRoNTcuMzAzdjY2LjRoLTEyMS4zOTh6bTEyLjU4IDIxNS40OThjLTE4LjMwNyAwLTMzLjItMTQuODkzLTMzLjItMzMuMTk5IDAtMTguMzA3IDE0Ljg5NC0zMy4yMDEgMzMuMi0zMy4yMDEgMTguMjkgMCAzMy4xNzEgMTQuODcgMzMuMTk2IDMzLjE1NiAwIC4wMTUtLjAwMi4wMy0uMDAyLjA0NXMuMDAyLjAzLjAwMi4wNDVjLS4wMjUgMTguMjg2LTE0LjkwNiAzMy4xNTQtMzMuMTk2IDMzLjE1NHptMjQwLjk5OSAwYy0xOC4zMDYgMC0zMy4xOTktMTQuODkzLTMzLjE5OS0zMy4xOTkgMC0xOC4zMDcgMTQuODk0LTMzLjIwMSAzMy4xOTktMzMuMjAxczMzLjE5NyAxNC44OTQgMzMuMTk3IDMzLjIwMWMwIDE4LjMwNi0xNC44OTIgMzMuMTk5LTMzLjE5NyAzMy4xOTl6bTEwNS40OTgtNzMuMzY1YzAgMTMuODc2LTExLjI5IDI1LjE2Ni0yNS4xNjggMjUuMTY2aC0xOC45NDZjLTYuNzUzLTI3LjYzLTMxLjcwNS00OC4yMDEtNjEuMzg0LTQ4LjIwMS0yOS42OCAwLTU0LjYzMyAyMC41NzEtNjEuMzg2IDQ4LjIwMWgtMTE4LjIzYy02Ljc1Mi0yNy42My0zMS43MDUtNDguMjAxLTYxLjM4NC00OC4yMDEtMjkuNjggMC01NC42MzQgMjAuNTcxLTYxLjM4NyA0OC4yMDFoLTE4Ljk1Yy0xMy44NzUgMC0yNS4xNjUtMTEuMjg5LTI1LjE2NS0yNS4xNjZ2LTQ4LjIwMWMwLTEzLjg3NiAxMS4yOS0yNS4xNjYgMjUuMTY2LTI1LjE2NmgzNDUuMzQ1Yy4wMzMgMCAuMDY2LjAwMy4xLjAwMy4wMiAwIC4wNC0uMDAzLjA2MS0uMDAzaDE1Ljk5NGMyNC43ODcgMCA0Ni4zOTQgMTMuODc1IDU3LjQ2MiAzNC4yNjZoLTEuMjI4Yy04LjI4NCAwLTE1IDYuNzE2LTE1IDE1czYuNzE2IDE1IDE1IDE1aDkuMDcyYy4wMDYuMzU2LjAyNy43MDkuMDI3IDEuMDY2djguMDM1eiIvPjxwYXRoIGQ9Im0yNjQuMDMxIDI2NS4xaC0xNi4wNjZjLTguMjg0IDAtMTUgNi43MTYtMTUgMTVzNi43MTYgMTUgMTUgMTVoMTYuMDY2YzguMjg0IDAgMTUtNi43MTYgMTUtMTUgMC04LjI4NS02LjcxNi0xNS0xNS0xNXoiLz48L3N2Zz4="
+                },
+                {
+                    "name": "מכרזים וכינוס",
+                    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTEycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDUxMiA1MTIuMDAwMSIgd2lkdGg9IjUxMnB0Ij4KPGcgaWQ9InN1cmZhY2UxIj4KPHBhdGggZD0iTSAxNSA1MTIgTCAyODcgNTEyIEMgMjk1LjI4NTE1NiA1MTIgMzAyIDUwNS4yODUxNTYgMzAyIDQ5NyBMIDMwMiA0ODEgQyAzMDIgNDY0LjQyOTY4OCAyODguNTcwMzEyIDQ1MSAyNzIgNDUxIEwgMjcyIDQzMy4wNjY0MDYgQyAyNzIgNDA5LjMyMDMxMiAyNTIuNjc5Njg4IDM5MCAyMjguOTMzNTk0IDM5MCBMIDczLjA2NjQwNiAzOTAgQyA0OS4zMjAzMTIgMzkwIDMwIDQwOS4zMjAzMTIgMzAgNDMzLjA2NjQwNiBMIDMwIDQ1MSBDIDEzLjQyOTY4OCA0NTEgMCA0NjQuNDI5Njg4IDAgNDgxIEwgMCA0OTcgQyAwIDUwNS4yODEyNSA2LjcxODc1IDUxMiAxNSA1MTIgWiBNIDE1IDUxMiAiIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMCUsMCUsMCUpO2ZpbGwtb3BhY2l0eToxOyIgLz4KPHBhdGggZD0iTSAxODcuNzM0Mzc1IDMzMC4zNDM3NSBDIDE5Ny43MDMxMjUgMzQzLjU3NDIxOSAyMTYuNTE1NjI1IDM0Ni4yMTg3NSAyMjkuNzQ2MDk0IDMzNi4yNDYwOTQgQyAyNDIuOTgwNDY5IDMyNi4yNzczNDQgMjQ1LjYyMTA5NCAzMDcuNDY0ODQ0IDIzNS42NTIzNDQgMjk0LjIzMDQ2OSBMIDE0NS4zNzg5MDYgMTc0LjQzNzUgQyAxMzUuNDA2MjUgMTYxLjIwMzEyNSAxMTYuNTk3NjU2IDE1OC41NjI1IDEwMy4zNjcxODggMTY4LjUzMTI1IEMgOTAuMTMyODEyIDE3OC41MDM5MDYgODcuNDg4MjgxIDE5Ny4zMTI1IDk3LjQ2MDkzOCAyMTAuNTQ2ODc1IFogTSAxODcuNzM0Mzc1IDMzMC4zNDM3NSAiIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMCUsMCUsMCUpO2ZpbGwtb3BhY2l0eToxOyIgLz4KPHBhdGggZD0iTSA0MDMuMzYzMjgxIDE2Ny44NTE1NjIgQyA0MTMuMzM1OTM4IDE4MS4wODIwMzEgNDMyLjE0NDUzMSAxODMuNzI2NTYyIDQ0NS4zNzg5MDYgMTczLjc1MzkwNiBDIDQ1OC42MDkzNzUgMTYzLjc4NTE1NiA0NjEuMjUzOTA2IDE0NC45NzY1NjIgNDUxLjI4MTI1IDEzMS43NDIxODggTCAzNjEuMDA3ODEyIDExLjk0OTIxOSBDIDM1MS4wMzkwNjIgLTEuMjg1MTU2IDMzMi4yMjY1NjIgLTMuOTI5Njg4IDMxOC45OTYwOTQgNi4wNDI5NjkgQyAzMDUuNzY1NjI1IDE2LjAxNTYyNSAzMDMuMTIxMDk0IDM0LjgyNDIxOSAzMTMuMDkzNzUgNDguMDU4NTk0IFogTSA0MDMuMzYzMjgxIDE2Ny44NTE1NjIgIiBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpub256ZXJvO2ZpbGw6cmdiKDAlLDAlLDAlKTtmaWxsLW9wYWNpdHk6MTsiIC8+CjxwYXRoIGQ9Ik0gMzM3LjU2MjUgMjU1IEMgMzU5LjczNDM3NSAyMzguMjkyOTY5IDM3Ni4zNzg5MDYgMjE3LjU0Njg3NSAzODYuNzg5MDYyIDE5NS43MDMxMjUgTCAyODEuNzUgNTYuMzEyNSBDIDI1Ny44ODI4MTIgNjAuMzAwNzgxIDIzMy4zNTU0NjkgNzAuNTc4MTI1IDIxMS4xNzk2ODggODcuMjg5MDYyIEMgMTg5LjAwNzgxMiAxMDMuOTk2MDk0IDE3Mi4zNjMyODEgMTI0Ljc0MjE4OCAxNjEuOTUzMTI1IDE0Ni41ODIwMzEgTCAyNjYuOTkyMTg4IDI4NS45ODA0NjkgQyAyOTAuODU5Mzc1IDI4MS45OTIxODggMzE1LjM4NjcxOSAyNzEuNzEwOTM4IDMzNy41NjI1IDI1NSBaIE0gMzM3LjU2MjUgMjU1ICIgc3R5bGU9IiBzdHJva2U6bm9uZTtmaWxsLXJ1bGU6bm9uemVybztmaWxsOnJnYigwJSwwJSwwJSk7ZmlsbC1vcGFjaXR5OjE7IiAvPgo8cGF0aCBkPSJNIDM3OC4wNjY0MDYgMjU4LjkwNjI1IEMgMzcxLjA4MjAzMSAyNjYuMDIzNDM4IDM2My43MjY1NjIgMjcyLjg0NzY1NiAzNTUuNjE3MTg4IDI3OC45NjA5MzggQyAzNDcuNTAzOTA2IDI4NS4wNzAzMTIgMzM4LjkxNDA2MiAyOTAuMjYxNzE5IDMzMC4xNTIzNDQgMjk1LjAxNTYyNSBMIDM0OS43MTA5MzggMzIwLjk3MjY1NiBMIDM5Ny42Mjg5MDYgMjg0Ljg2NzE4OCBaIE0gMzc4LjA2NjQwNiAyNTguOTA2MjUgIiBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpub256ZXJvO2ZpbGw6cmdiKDAlLDAlLDAlKTtmaWxsLW9wYWNpdHk6MTsiIC8+CjxwYXRoIGQ9Ik0gNDE1LjY4MzU5NCAzMDguODI0MjE5IEwgMzY3Ljc2NTYyNSAzNDQuOTI5Njg4IEwgNDU4LjAzOTA2MiA0NjQuNzI2NTYyIEMgNDY4LjAxMTcxOSA0NzcuOTYwOTM4IDQ4Ni44MjAzMTIgNDgwLjYwMTU2MiA1MDAuMDUwNzgxIDQ3MC42MzI4MTIgQyA1MTMuMjg1MTU2IDQ2MC42NjAxNTYgNTE1LjkyNTc4MSA0NDEuODUxNTYyIDUwNS45NTcwMzEgNDI4LjYxNzE4OCBaIE0gNDE1LjY4MzU5NCAzMDguODI0MjE5ICIgc3R5bGU9IiBzdHJva2U6bm9uZTtmaWxsLXJ1bGU6bm9uemVybztmaWxsOnJnYigwJSwwJSwwJSk7ZmlsbC1vcGFjaXR5OjE7IiAvPgo8L2c+Cjwvc3ZnPg=="
+                },
+                {
+                    "name": "מימון רכב",
+                    "icon": "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im0zOTQgNTEyaC0yNzZjLTI1LjM2NCAwLTQ2LTIwLjYzNi00Ni00NnYtNDIwYzAtMjUuMzY0IDIwLjYzNi00NiA0Ni00NmgyNzZjMjUuMzY0IDAgNDYgMjAuNjM2IDQ2IDQ2djQyMGMwIDI1LjM2NC0yMC42MzYgNDYtNDYgNDZ6bS0yNzYtNDgwYy03LjcyIDAtMTQgNi4yOC0xNCAxNHY0MjBjMCA3LjcyIDYuMjggMTQgMTQgMTRoMjc2YzcuNzIgMCAxNC02LjI4IDE0LTE0di00MjBjMC03LjcyLTYuMjgtMTQtMTQtMTR6Ii8+PHBhdGggZD0ibTMzMiAyMDBoLTE1MmMtMTkuODUxIDAtMzYtMTYuMTQ5LTM2LTM2di00MGMwLTE5Ljg1MSAxNi4xNDktMzYgMzYtMzZoMTUyYzE5Ljg1MSAwIDM2IDE2LjE0OSAzNiAzNnY0MGMwIDE5Ljg1MS0xNi4xNDkgMzYtMzYgMzZ6bS0xNTItODBjLTIuMjA2IDAtNCAxLjc5NC00IDR2NDBjMCAyLjIwNiAxLjc5NCA0IDQgNGgxNTJjMi4yMDYgMCA0LTEuNzk0IDQtNHYtNDBjMC0yLjIwNi0xLjc5NC00LTQtNHoiLz48cGF0aCBkPSJtMTc2LjAyIDI4OGMtOC44MzYgMC0xNi4wMDUtNy4xNjQtMTYuMDA1LTE2czcuMTU5LTE2IDE1Ljk5NS0xNmguMDFjOC44MzcgMCAxNiA3LjE2NCAxNiAxNnMtNy4xNjQgMTYtMTYgMTZ6Ii8+PHBhdGggZD0ibTI1Ni4wMiAyODhjLTguODM2IDAtMTYuMDA1LTcuMTY0LTE2LjAwNS0xNnM3LjE1OS0xNiAxNS45OTUtMTZoLjAxYzguODM3IDAgMTYgNy4xNjQgMTYgMTZzLTcuMTY0IDE2LTE2IDE2eiIvPjxwYXRoIGQ9Im0zMzYuMDIgMjg4Yy04LjgzNiAwLTE2LjAwNS03LjE2NC0xNi4wMDUtMTZzNy4xNTktMTYgMTUuOTk1LTE2aC4wMWM4LjgzNyAwIDE2IDcuMTY0IDE2IDE2cy03LjE2NCAxNi0xNiAxNnoiLz48cGF0aCBkPSJtMTc2LjAyIDM2MGMtOC44MzYgMC0xNi4wMDUtNy4xNjQtMTYuMDA1LTE2czcuMTU5LTE2IDE1Ljk5NS0xNmguMDFjOC44MzcgMCAxNiA3LjE2NCAxNiAxNnMtNy4xNjQgMTYtMTYgMTZ6Ii8+PHBhdGggZD0ibTI1Ni4wMiAzNjBjLTguODM2IDAtMTYuMDA1LTcuMTY0LTE2LjAwNS0xNnM3LjE1OS0xNiAxNS45OTUtMTZoLjAxYzguODM3IDAgMTYgNy4xNjQgMTYgMTZzLTcuMTY0IDE2LTE2IDE2eiIvPjxwYXRoIGQ9Im0zMzYuMDIgMzYwYy04LjgzNiAwLTE2LjAwNS03LjE2NC0xNi4wMDUtMTZzNy4xNTktMTYgMTUuOTk1LTE2aC4wMWM4LjgzNyAwIDE2IDcuMTY0IDE2IDE2cy03LjE2NCAxNi0xNiAxNnoiLz48cGF0aCBkPSJtMTc2LjAyIDQzMmMtOC44MzYgMC0xNi4wMDUtNy4xNjQtMTYuMDA1LTE2czcuMTU5LTE2IDE1Ljk5NS0xNmguMDFjOC44MzcgMCAxNiA3LjE2NCAxNiAxNnMtNy4xNjQgMTYtMTYgMTZ6Ii8+PHBhdGggZD0ibTI1Ni4wMiA0MzJjLTguODM2IDAtMTYuMDA1LTcuMTY0LTE2LjAwNS0xNnM3LjE1OS0xNiAxNS45OTUtMTZoLjAxYzguODM3IDAgMTYgNy4xNjQgMTYgMTZzLTcuMTY0IDE2LTE2IDE2eiIvPjxwYXRoIGQ9Im0zMzYuMDIgNDMyYy04LjgzNiAwLTE2LjAwNS03LjE2NC0xNi4wMDUtMTZzNy4xNTktMTYgMTUuOTk1LTE2aC4wMWM4LjgzNyAwIDE2IDcuMTY0IDE2IDE2cy03LjE2NCAxNi0xNiAxNnoiLz48L2c+PC9zdmc+"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "יד שנייה",
+        "links": [
+            [
+                {
+                    "name": "כל המוצרים"
+                },
+                {
+                    "name": "מוצרי חשמל"
+                },
+                {
+                    "name": "ריהוט"
+                },
+                {
+                    "name": "עסקים למכירה"
+                },
+                {
+                    "name": "ספורט"
+                },
+                {
+                    "name": "סלולרי"
+                },
+                {
+                    "name": "לתינוק ולילד"
+                },
+                {
+                    "name": "הכל בחינם!"
+                }
+            ],
+            [
+                {
+                    "name": "קונסולות משחק"
+                },
+                {
+                    "name": "מחשבים וציוד נלווה"
+                },
+                {
+                    "name": "לגינה"
+                },
+                {
+                    "name": "אופנה וטיפוח"
+                },
+                {
+                    "name": "יד2 מכל הלב",
+                    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBoZWlnaHQ9IjUwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwb2x5bGluZSBmaWxsPSJub25lIiBwb2ludHM9IjIwLDIzIDIsMjMgMiwxNCAgIDQ4LDE0IDQ4LDIzIDMwLDIzICIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgZmlsbD0ibm9uZSIgaGVpZ2h0PSIzNCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiB3aWR0aD0iMTAiIHg9IjIwIiB5PSIxNCIvPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNTAiIHdpZHRoPSI1MCIvPjxwYXRoIGQ9Ik0yMCwyM0g0djI1aDQyVjIzSDMwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSIgIE0yNSwxM2MwLDAtMy41ODIsMC04LDBzLTktMi41ODEtOS03YzAtMS44MjgsMC44NzgtNCw0LjMxOS00QzE5LjIzNiwyLDE5LjM2MywxMywyNSwxM3oiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9IiAgTTI1LDEzYzAsMCwzLjU4MiwwLDgsMHM5LTIuNTgxLDktN2MwLTEuODI4LTAuODc4LTQtNC4zMTktNEMzMC43NjQsMiwzMC42MzcsMTMsMjUsMTN6IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
+                }
+            ]
+        ]
+    },
+    {
+        "name": "דרושים IL",
+        "links": [
+            [
+                {
+                    "name": "חיפוש עבודה"
+                },
+                {
+                    "name": "פרסום משרות"
+                },
+                {
+                    "name": "כתיבת קורות חיים"
+                },
+                {
+                    "name": "אודות החברות"
+                },
+                {
+                    "name": "דרושים הייטק"
+                },
+                {
+                    "name": "דרושים סטודנטים"
+                },
+                {
+                    "name": "משרות ללא קו\"ח"
+                },
+                {
+                    "name": "כספים"
+                },
+                {
+                    "name": "מכירות"
+                },
+                {
+                    "name": "שירות לקוחות"
+                }
+            ],
+            [
+                {
+                    "name": "אדמיניסטרציה"
+                },
+                {
+                    "name": "מהנדסים"
+                },
+                {
+                    "name": "תחבורה"
+                },
+                {
+                    "name": "מסעדנות/תיירות"
+                },
+                {
+                    "name": "אבטחה"
+                },
+                {
+                    "name": "בריאות"
+                },
+                {
+                    "name": "בעלי מקצוע"
+                },
+                {
+                    "name": "הדרכה/הוראה"
+                },
+                {
+                    "name": "שיווק"
+                },
+                {
+                    "name": "לתחומים נוספים"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "עסקים ומסחרי",
+        "links": [
+            [
+                {
+                    "name": "עסקים למכירה"
+                },
+                {
+                    "name": "נדל''ן מסחרי"
+                },
+                {
+                    "name": "ציוד לעסקים"
+                },
+                {
+                    "name": "זכיינות"
+                },
+                {
+                    "name": "משרדים להשכרה"
+                },
+                {
+                    "name": "חללי עבודה משותפים"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "חיות מחמד",
+        "links": [
+            [
+                {
+                    "name": "כלבים"
+                },
+                {
+                    "name": "חתולים"
+                },
+                {
+                    "name": "תוכים ובעלי כנף"
+                },
+                {
+                    "name": "דגים"
+                },
+                {
+                    "name": "זוחלים"
+                },
+                {
+                    "name": "מכרסמים"
+                },
+                {
+                    "name": "סוסים"
+                },
+                {
+                    "name": "תרנגולים"
+                },
+                {
+                    "name": "חיות משק"
+                },
+                {
+                    "name": "חמוסים"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "בעלי מקצוע",
+        "links": [
+            [
+                {
+                    "name": "מכוני בדיקה ורישוי לרכב"
+                },
+                {
+                    "name": "רחיצת רכב"
+                },
+                {
+                    "name": "שמאי מקרקעין"
+                },
+                {
+                    "name": "חומרי בניין"
+                },
+                {
+                    "name": "אינסטלטור"
+                },
+                {
+                    "name": "חשמלאים"
+                },
+                {
+                    "name": "שיפוצים"
+                },
+                {
+                    "name": "הובלות"
+                },
+                {
+                    "name": "רהיטים"
+                },
+                {
+                    "name": "חברות ניקיון ואחזקה"
+                },
+                {
+                    "name": "לכל בעלי המקצוע"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "עוד...",
+        "links": [
+            [
+                {
+                    "name": "תיירות ונופש"
+                },
+                {
+                    "name": "לימודים"
+                },
+                {
+                    "name": "מגזין יד2"
+                }
+            ]
+        ]
+    }
+]

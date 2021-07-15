@@ -1,0 +1,53 @@
+.new-post-page__container{
+    .payments-form{
+        .input__container{
+            select{
+                width: 205px;
+            }
+            input{
+                width: 171px;
+            }
+            @include tablet{
+                select{
+                    width: auto;
+                }
+                input{
+                    width: auto;
+                }
+            }
+        }
+    }
+    .react-datepicker__navigation{
+        width: 32px !important;
+    }
+    .date-and-immediate-btn{
+        display: flex;
+        align-items: center;
+        p{
+            @include mobile{
+                font-size: 12px;
+            }
+        }
+        input[type=checkbox]{
+            width: 20px;
+            @include mobile{
+                width: 1rem;
+            }
+        } 
+        span{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+#shekel{
+    position: absolute;
+    margin-top: 1.6rem;
+    margin-right: 11rem;
+    font-size: 1.2rem;
+    color: #ccc;
+    @include tablet{
+        margin-right: 80%;
+    }
+}

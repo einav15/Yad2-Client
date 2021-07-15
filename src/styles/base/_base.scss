@@ -1,0 +1,58 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    direction: rtl;
+    margin: 0;
+    color: #606060;
+}
+
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.30;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+body{
+    background: $light-gray;
+}
+
+input{
+    &:focus{
+        outline: none;
+    }
+}
+
+button{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.react-datepicker__navigation{
+    width: auto !important;
+}
+
+.loading__backdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #eee;
+    span{   
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+}

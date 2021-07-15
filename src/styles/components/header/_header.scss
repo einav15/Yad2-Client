@@ -1,0 +1,96 @@
+header{
+    border-top: 5px solid $orange;
+    width: 100%;
+    background: white;
+    // box-shadow: 0 5px 6px 0 #00000020;
+    @include mobile{
+        border: none;
+        border-radius: 10%;
+    }
+    #nav-menu{
+        height: 50px;
+        box-shadow: 0 5px 6px 0 #00000019;
+        @include mobile{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 5px 0;
+            background: rgb(249,249,249);
+            background: linear-gradient(180deg, rgba(249,249,249,1) 84%, rgba(255,255,255,1) 91%);         
+        }
+    }
+}
+.post-page__header-container{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.post-page__header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1240px;
+    #logo{
+        height: 35px;
+        margin-left: 10px;
+    }
+    .post-page__header{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 1.1rem;
+        padding: 0;
+    }   
+    .post-page__header.left{
+        display: flex;
+        justify-content: right;
+        width: auto;
+        span{
+            min-width: 55px;
+            font-size: 0.99rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .user-icon{
+            background: none;
+            width: auto;
+            &:hover{
+                cursor: pointer;
+            }
+            img{
+                height: 16px;
+                margin: 0 7px;
+                filter: invert(57%) sepia(45%) saturate(7257%) hue-rotate(4deg) brightness(108%) contrast(102%);
+            }
+            span{
+                color: $orange;
+                min-width: 0;
+            }
+        }
+        .exit-btn{
+            font-size: 0.875rem;
+            background: white;
+            border: 1px solid black;
+            height: 31px;
+            line-height: 28px;
+            width: 81px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            color: #363636;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 14px;
+            span{
+                min-width: 0;
+            }
+        }
+    }
+}
