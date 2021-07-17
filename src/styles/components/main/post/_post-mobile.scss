@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 0;
+    z-index: 10;
     top: -5px;
     right: 0;
     @include tablet{
@@ -17,6 +17,7 @@
     background: white;
     position: relative;
     margin: 4px 0;
+    cursor: pointer;
     @include tablet{
         max-width: none;
     }
@@ -37,10 +38,15 @@
     &:hover{
         box-shadow: 0 3px 5px 0 rgba(0,0,0,.2),0 1px 18px 0 rgba(0,0,0,.12),0 6px 10px 0 rgba(0,0,0,.14);
     }
-    img{
+    .img__container{
         width: 125px;
         height: 100px;
         margin: 5px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
     }
     .mobile-post__info{
         display: flex;
@@ -54,6 +60,8 @@
         font-size: 0.85rem;
         margin: 2px 0;
         margin-right: 8px;
+        cursor: auto;
+
 
     }
     .price, b{
@@ -61,6 +69,8 @@
         font-size: 0.9rem;
         margin: 5px;
         margin-bottom: 3px;
+        cursor: auto;
+
     }
     .margin-bottom{
         margin-bottom: 0.3rem;
@@ -72,6 +82,7 @@
         padding-top: 0.2rem;
         border-top: 1px solid rgba(0,0,0,.1);
         font-size: 0.8rem;
+        cursor: auto;
         .property-info__div{
             display: flex;
             flex-direction: column;

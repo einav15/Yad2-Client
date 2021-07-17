@@ -3,7 +3,7 @@ import React from 'react'
 const PostMainMoreInfo = ({ propertyInfo, payments, address }) => {
 
     const entryDate = () => {
-        const date = new Date((Date)(payments.entryDate["$date"]["$numberLong"]))
+        const date = new Date((Date)(payments.entryDate))
         return date < new Date() ?
             "כניסה מיידית" : `${date.getDay()}/${date.getMonth()}/${date.getFullYear()} `
     }

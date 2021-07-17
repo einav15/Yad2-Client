@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { Yad2Context } from '../../context/Yad2Context'
+import { Yad2Context, disableScroll } from '../../context/Yad2Context'
 import Backdrop from '../Backdrop'
 import LoginForm from './LoginForm'
 import SignupForm from './SignupForm'
@@ -16,6 +16,7 @@ const LoginModal = () => {
         setIsNewPostBtn(false)
         setIsLoginModalOpen(false)
         setIsBackdrop(false)
+        disableScroll(false)
     }
 
     return (
@@ -25,7 +26,7 @@ const LoginModal = () => {
                 <div className="login-modal">
                     <div className="close-button" onClick={closeModal}>
                         X
-                </div>
+                    </div>
                     <div className="welcome">
                         <div className="welcome-content">
                             <img id="logo" src="https://y2-address-master-dev.s3-eu-west-1.amazonaws.com/auth/New_logo_negative.svg" alt="logo" />

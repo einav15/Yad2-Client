@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { disableScroll, Yad2Context } from '../../../../context/Yad2Context'
 import PhoneBtn from './PhoneBtn'
 import PostMainArea from './PostMainArea'
 import Price from './Price'
@@ -7,8 +8,12 @@ import PropertyInfo from './ProperyInfo'
 
 const Post = ({ post }) => {
     const { mediaUrls, address, propertyInfo, payments, contact, updatedAt } = post
-
+    const { isBackdrop } = useContext(Yad2Context)
     const [isOpen, setIsOpen] = useState(false)
+
+    useEffect(() => {
+        disableScroll(isBackdrop, isOpen)
+    }, [isOpen])
 
     return (
         <>
@@ -18,7 +23,7 @@ const Post = ({ post }) => {
                 <Price payments={payments} updatedAt={updatedAt} />
                 {isOpen && <PhoneBtn contact={contact} />}
             </div>
-            { isOpen && <div className="post-main-area__container">
+            {isOpen && <div className="post-main-area__container">
                 <div className="post-main-area__padding" />
                 <PostMainArea post={post} />
             </div>}

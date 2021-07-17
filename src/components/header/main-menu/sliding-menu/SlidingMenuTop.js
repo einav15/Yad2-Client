@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { useHistory } from 'react-router'
 import { LoginContext } from '../../../../context/LoginContext'
-import { Yad2Context } from '../../../../context/Yad2Context'
+import { disableScroll, Yad2Context } from '../../../../context/Yad2Context'
 
 
 const SlidingMenuTop = ({ close }) => {
@@ -21,6 +21,7 @@ const SlidingMenuTop = ({ close }) => {
             close()
             setIsNewPostBtn(true)
             openLoginModal()
+            disableScroll(true)
         }
         else {
             setIsNewPostPage(true)

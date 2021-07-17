@@ -99,6 +99,15 @@ export const newPostInitialState = {
         email: ""
     }
 }
+export const disableScroll = (modal, post) => {
+    const body = document.querySelector('body')
+    if (modal || post)
+        // Disable scroll
+        body.style.overflow = "hidden";
+    else
+        // Enable scroll
+        body.style.overflow = "auto";
+}
 
 const Yad2ContextProvider = (props) => {
     //states and reducers

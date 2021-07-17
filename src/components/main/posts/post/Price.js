@@ -7,7 +7,7 @@ const separator = (num) => {
 }
 
 const Price = ({ payments, updatedAt }) => {
-    const date = updatedAt["$date"]["$numberLong"]
+    const date = updatedAt
     const today = new Date(new Date().toJSON().slice(0, 10))
     const updatedAtParse = () => {
         const updatedDate = new Date((Date)(date))
@@ -18,7 +18,7 @@ const Price = ({ payments, updatedAt }) => {
     return (
         <div className="price">
             <div className="price__div">
-                <p>₪{separator(payments.price["$numberInt"])}</p>
+                <p>₪{separator(payments.price)}</p>
                 <span>{updatedAtParse()}</span>
             </div>
         </div>

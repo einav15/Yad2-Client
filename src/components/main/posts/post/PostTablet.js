@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { disableScroll, Yad2Context } from '../../../../context/Yad2Context';
 import PhoneBtn from './PhoneBtn'
 import PostMainArea from './PostMainArea'
 import PropertyInfo from './ProperyInfo';
@@ -12,6 +13,7 @@ const separator = (num) => {
 const PostTablet = ({ post }) => {
     const { mediaUrls, address, propertyInfo, payments, contact, updatedAt } = post
 
+    const { isBackdrop } = useContext(Yad2Context)
     const [isOpen, setIsOpen] = useState(false)
 
     const takeFirstImageFromArray = () => {
@@ -26,7 +28,11 @@ const PostTablet = ({ post }) => {
         return null
     }
 
-    const date = updatedAt["$date"]["$numberLong"]
+    useEffect(() => {
+        disableScroll(isBackdrop, isOpen)
+    }, [isOpen])
+
+    const date = updatedAt
     const today = new Date(new Date().toJSON().slice(0, 10))
     const updatedAtParse = () => {
         const updatedDate = new Date((Date)(date))
@@ -39,9 +45,11 @@ const PostTablet = ({ post }) => {
         <>
             <div onClick={() => setIsOpen(!isOpen)} className={(isOpen ? "opened " : "") + "mobile-post__container"}>
                 {isOpen && <div className="exit-post">X</div>}
-                <img alt="img" src={takeFirstImageFromArray() || "https://assets.yad2.co.il/yad2site/y2assets/images/pages/feed/feed_re_placeholder_small.png"} />
+                <div className="img__container">
+                    <img alt="img" src={takeFirstImageFromArray() || "https://assets.yad2.co.il/yad2site/y2assets/images/pages/feed/feed_re_placeholder_small.png"} />
+                </div>
                 <div className="mobile-post__info">
-                    <p className="price">₪{separator(payments.price["$numberInt"])}</p>
+                    <p className="price">₪{separator(payments.price)}</p>
                     <p>{`${address.street} ${address.number},`}</p>
                     <p className="margin-bottom">{`${address.city}`}</p>
                     <PropertyInfo address={address} propertyInfo={propertyInfo} payments={payments} />

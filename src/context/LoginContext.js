@@ -13,7 +13,6 @@ export const signupInitialState = {
 }
 
 const LoginContextProvider = (props) => {
-
     const [user, dispatchUser] = useReducer(UsersReducer, null)
     const [signupForm, dispatchSignupForm] = useReducer(SignupReducer, signupInitialState)
 

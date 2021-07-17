@@ -1,78 +1,76 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useLayoutEffect, useState } from 'react'
+import Axios from 'axios'
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
 import { Yad2Context } from '../../../../context/Yad2Context'
 import Post from './Post'
 import PostTablet from './PostTablet'
-
-const doc = {
-    "_id": {
-        "$oid": "60ed9072d171fae26a134f2e"
-    },
-    "mediaUrls": {
-        "images": ["https://einav-yad2-media.s3.eu-west-1.amazonaws.com/media/60ed65aaa1f4223315f7fb93/60ed9072d171fae26a134f2e/y2_2_01652_20210630180654.jpeg", "https://einav-yad2-media.s3.eu-west-1.amazonaws.com/media/60ed65aaa1f4223315f7fb93/60ed9072d171fae26a134f2e/y2_3_05492_20210630180606.jpeg", "https://einav-yad2-media.s3.eu-west-1.amazonaws.com/media/60ed65aaa1f4223315f7fb93/60ed9072d171fae26a134f2e/y2_4_03873_20210630180631.jpeg"], "mainImg": "https://einav-yad2-media.s3.eu-west-1.amazonaws.com/media/60ed65aaa1f4223315f7fb93/60ed9072d171fae26a134f2e/y2_1_05080_20210630180638.jpeg"
-    },
-    "contact": {
-        "main": {
-            "name": "עינב",
-            "number": "0502001226"
-        }, "second": {
-            "name": "",
-            "number": ""
-        },
-        "email": "einav1@gmail.com"
-    }, "address": {
-        "propertyType": "דירה"
-        , "city": "תל אביב - יפו",
-        "street": "שייקה דן",
-        "number": "12",
-        "floorNum": "1",
-        "floorsInBuilding": "1"
-    }, "propertyInfo": {
-        "numOfRooms": {
-            "$numberInt": "2"
-        },
-        "parking": {
-            "$numberInt": "0"
-        },
-        "porch": {
-            "$numberInt": "0"
-        },
-        "properties": {
-            "מיזוג": true, "ממ\"ד": false, "מחסן": false, "דלתות פנדור": true, "ריהוט": true, "גישה לנכים": false, "מעלית": false, "מזגן תדיראן": true, "משופצת": true, "סורגים": true, "לשותפים": false, "חיות מחמד": false, "מטבח כשר": false, "דוד שמש": false
-        }, "freeText": "דירת שני חדרים קרקע יפה ומשופצת, ברחוב שקט וירוק, חניה צמודה, מרוהטת, רצפת פורצלן, קרובה לתחבורה ציבורית לכל חלקי תל אביב"
-    },
-    "payments": {
-        "numOfPayments": "12",
-        "buildingFee": null,
-        "arnona": null,
-        "size": null,
-        "actualSize": {
-            "$numberInt": "50"
-        },
-        "price": {
-            "$numberInt": "2900"
-        },
-        "entryDate": {
-            "$date": {
-                "$numberLong": "1626181619632"
-            }
-        }
-    },
-    "createdAt": { "$date": { "$numberLong": "1626181746493" } }, "updatedAt": { "$date": { "$numberLong": "1626181753058" } }, "__v": { "$numberInt": "0" }
-}
+import { dbUrl } from '../../../../context/LoginContext'
+import { SearchContext } from '../../../../context/SearchContext';
 
 
-const PostsContainer = () => {
+
+const PostsContainer = ({ setNumOfListings }) => {
 
     const { screenWidth } = useContext(Yad2Context)
+    const { listings, setListings } = useContext(SearchContext)
+    const [isScrolledToBottom, setIsScrolledToBottom] = useState(false)
+    const [isLoading, setIsLoading] = useState(false)
+
+    useEffect(() => {
+        let flag = true
+        const getFirstPosts = async () => {
+            await Axios.get(`${dbUrl}listings`)
+                .then(res => {
+                    setListings(res.data.data)
+                    setNumOfListings(res.data.length)
+                })
+                .catch(e => console.log(e))
+        }
+        if (flag)
+            getFirstPosts()
+        return flag = false
+    }, [])
+
+    useLayoutEffect(() => {
+        window.addEventListener('scroll', (e) => {
+            const win = e.target.scrollingElement
+            setIsScrolledToBottom(win.scrollHeight - win.scrollTop === win.clientHeight)
+        })
+    }, [])
+
+    useEffect(() => {
+        const getMorePosts = async () => {
+            await Axios.get(`${dbUrl}listings`, {
+                params: {
+                    last: listings[listings.length - 1]
+                }
+            })
+                .then(res => setListings([...listings.concat(res.data.data)]))
+                .then(() => setIsLoading(false))
+        }
+        if (isScrolledToBottom) {
+            setIsLoading(true)
+            getMorePosts()
+        }
+    }, [isScrolledToBottom])
 
     return (
         <div className={(screenWidth > 800 ? "" : "mobile-") + "posts__container"}>
-            {
-                screenWidth > 800 ?
-                    <Post post={doc} /> :
-                    <PostTablet post={doc} />
-            }
+            {listings.map((listing) =>
+                screenWidth > 960 ?
+                    <Post key={Math.random()} post={listing} /> :
+                    <PostTablet key={Math.random()} post={listing} />
+            )}
+            {isLoading && <div className="loading-spinner__container">
+                <Loader
+                    type="Puff"
+                    color="#00BFFF"
+                    height={16}
+                    width={16}
+                />
 
+            </div>}
         </div>
     )
 }

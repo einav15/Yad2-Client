@@ -40,6 +40,7 @@
             justify-content: space-around;
             align-items: center;
             border-left: 1px solid rgba(0,0,0,.1); 
+            cursor: auto;
             .property-info__div{
                 display: flex;
                 flex-direction: column;
@@ -70,6 +71,13 @@
                 }
             }  
         }
+    }
+    .loading-spinner__container{
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }

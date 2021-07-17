@@ -29,8 +29,6 @@ const SearchContextProvider = (props) => {
 
     //area states
     const [areaSearch, setAreaSearch] = useState([])
-
-
     //asset types states
     const [selectAll, setSelectAll] = useState(false)
     const [deselectAll, setDeselectAll] = useState(false)
@@ -43,11 +41,15 @@ const SearchContextProvider = (props) => {
     //advanced search
     const [advancedSearchOptions, dispatchAdvancedSearchOptions] = useReducer(AdvancedSearchReducer, initialAdvancedSearchState)
     const [advancedSearchNumOfFilters, setAdvancedSearchNumOfFilters] = useState(0)
+    //results
+    const [listings, setListings] = useState([])
+
 
 
     return (
         <SearchContext.Provider value={{
             //states and reducers to pass
+            listings, setListings,
             selectAll, setSelectAll,
             deselectAll, setDeselectAll,
             selectedTypes, setSelectedTypes,

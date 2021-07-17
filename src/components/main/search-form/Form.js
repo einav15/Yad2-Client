@@ -1,26 +1,42 @@
 import React, { useContext, useState } from 'react'
+import Axios from 'axios'
 import { SearchContext } from '../../../context/SearchContext'
 import AdvancedSearch from './advanced-search/AdvancedSearch'
 import AreaSearch from './area-search/AreaSearch'
 import AssetType from './asset-type/AssetType'
 import Price from './Price'
 import Rooms from './num-of-rooms/Rooms'
+import { dbUrl } from '../../../context/LoginContext'
 
 
 const Form = () => {
 
-    const { areaSearch, setAreaSearch,
+    const {
+        areaSearch, setAreaSearch,
         assetTypes, setAssetTypes,
         numOfRooms, setNumOfRooms,
         PriceRange, setPriceRange,
         advancedSearchNumOfFilters,
-        // advancedSearchOptions
+        advancedSearchOptions
     } = useContext(SearchContext)
 
     const [openAdvancedSearch, setOpenAdvancedSearch] = useState(false)
 
-    const search = (e) => {
+    const search = async (e) => {
         e.preventDefault()
+        const filters = {
+            areaSearch,
+            assetTypes,
+            PriceRange,
+            advancedSearchOptions,
+            numOfRooms
+        }
+        await Axios.get(`${dbUrl}listings/advanced`, {
+            params: {
+                filters
+            }
+        }).then((res) => console.log(res.data))
+            .catch(e => console.log(e))
     }
 
     const onClickOpenAdvancedSearch = () => {
@@ -35,7 +51,7 @@ const Form = () => {
             <Rooms numOfRooms={numOfRooms} setNumOfRooms={setNumOfRooms} />
             <Price PriceRange={PriceRange} setPriceRange={setPriceRange} />
             <div className="search-form-btns__container">
-                <button className="advanced-search__btn" onClick={onClickOpenAdvancedSearch}>
+                <button type="button" className="advanced-search__btn" onClick={onClickOpenAdvancedSearch}>
                     <img alt="plus" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0yNTYgNTEyYy0xNDEuMTY0MDYyIDAtMjU2LTExNC44MzU5MzgtMjU2LTI1NnMxMTQuODM1OTM4LTI1NiAyNTYtMjU2IDI1NiAxMTQuODM1OTM4IDI1NiAyNTYtMTE0LjgzNTkzOCAyNTYtMjU2IDI1NnptMC00ODBjLTEyMy41MTk1MzEgMC0yMjQgMTAwLjQ4MDQ2OS0yMjQgMjI0czEwMC40ODA0NjkgMjI0IDIyNCAyMjQgMjI0LTEwMC40ODA0NjkgMjI0LTIyNC0xMDAuNDgwNDY5LTIyNC0yMjQtMjI0em0wIDAiLz48cGF0aCBkPSJtMzY4IDI3MmgtMjI0Yy04LjgzMjAzMSAwLTE2LTcuMTY3OTY5LTE2LTE2czcuMTY3OTY5LTE2IDE2LTE2aDIyNGM4LjgzMjAzMSAwIDE2IDcuMTY3OTY5IDE2IDE2cy03LjE2Nzk2OSAxNi0xNiAxNnptMCAwIi8+PHBhdGggZD0ibTI1NiAzODRjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZ2LTIyNGMwLTguODMyMDMxIDcuMTY3OTY5LTE2IDE2LTE2czE2IDcuMTY3OTY5IDE2IDE2djIyNGMwIDguODMyMDMxLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiLz48L3N2Zz4=" />
                     <span>חיפוש מתקדם {advancedSearchNumOfFilters > 0 ? `(${advancedSearchNumOfFilters})` : ""}</span>
                     {advancedSearchNumOfFilters > 0 && <span id="advanced-search-freckle" />}

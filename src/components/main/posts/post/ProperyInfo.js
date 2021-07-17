@@ -5,7 +5,7 @@ const PropertyInfo = ({ address, propertyInfo, payments }) => {
     return (
         <div className="property-info">
             <div className="property-info__div">
-                <b>{propertyInfo.numOfRooms["$numberInt"]}</b>
+                <b>{propertyInfo.numOfRooms}</b>
                 <span>חדרים</span>
             </div>
             <div className="property-info__div">
@@ -13,7 +13,7 @@ const PropertyInfo = ({ address, propertyInfo, payments }) => {
                 <span>קומה</span>
             </div>
             <div className="property-info__div">
-                <b>{payments.actualSize["$numberInt"]}</b>
+                <b>{payments.actualSize}</b>
                 <span>מ"ר</span>
             </div>
         </div>

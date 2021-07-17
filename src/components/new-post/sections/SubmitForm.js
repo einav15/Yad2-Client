@@ -17,7 +17,7 @@ const SubmitForm = () => {
         e.preventDefault()
         setIsLoading(true)
         const mediaUrls = { images: [] }
-        const sendNewPost = { ...newPost }
+        const sendNewPost = { ...newPost, owner: user.user._id }
         sendNewPost.media = null
         await Axios.post(`${dbUrl}listing`, sendNewPost)
             .then(async (res) => {

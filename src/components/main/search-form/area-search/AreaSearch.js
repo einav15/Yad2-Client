@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Dropdown from './Dropdown'
 
 
-
 const AreaSearch = ({ areaSearch, setAreaSearch }) => {
+
     const [areaInput, setAreaInput] = useState("")
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 

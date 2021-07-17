@@ -12,14 +12,13 @@ const Rooms = ({ numOfRooms, setNumOfRooms }) => {
 
     const setRooms = (range) => {
         setNumOfRooms(range)
-        console.log(numOfRooms)
     }
 
 
     return (
         <div className="form-input rooms-length">
             <span>חדרים</span>
-            <button onClick={onClickOpen} className="search-dropdown__btn rooms-btn">
+            <button type="button" onClick={onClickOpen} className="search-dropdown__btn rooms-btn">
                 {
                     numOfRooms[0] === 0 && numOfRooms[1] === 0 ? <span>חדרים</span> :
                         (numOfRooms[0] === 0 ? `עד ${numOfRooms[1]}` :
@@ -28,7 +27,7 @@ const Rooms = ({ numOfRooms, setNumOfRooms }) => {
                 }
                 <ExpandCollapse isDropdownOpen={isDropdownOpen} />
             </button>
-            { isDropdownOpen && <RoomsDropdown setRooms={setRooms} numOfRooms={numOfRooms} />}
+            {isDropdownOpen && <RoomsDropdown setRooms={setRooms} numOfRooms={numOfRooms} />}
         </div>
     )
 }
