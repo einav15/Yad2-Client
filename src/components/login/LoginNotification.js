@@ -1,5 +1,5 @@
 import React from 'react'
-import { icons } from '../../context/Yad2Context'
+import { icons } from '../../utilities'
 
 const LoginNotification = ({ message, valid }) => {
 

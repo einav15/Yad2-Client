@@ -7,9 +7,12 @@ import Axios from 'axios'
 import { LoginContext, dbUrl } from '../../context/LoginContext'
 import LoginNotification from './LoginNotification'
 import LoadingBackdrop from '../LoadingBackdrop'
+import Cookies from 'universal-cookie';
+
 
 const LoginForm = ({ setIsLoginMode, setIsLoginModalOpen, isNewPostBtn, setIsNewPostBtn }) => {
 
+    const cookies = new Cookies();
     const { dispatchUser } = useContext(LoginContext)
     const [isLoginEnabled, setIsLoginEnabled] = useState(false)
     const [email, setEmail] = useState('')
@@ -29,6 +32,7 @@ const LoginForm = ({ setIsLoginMode, setIsLoginModalOpen, isNewPostBtn, setIsNew
         const password = e.target.password.value
         Axios.post(`${dbUrl}users/login`, { email, password })
             .then((res) => {
+                cookies.set('user', res.data.token, { path: '/' })
                 dispatchUser({ type: "LOGIN", user: res.data })
                 setIsLoginModalOpen(false)
                 alert("ההתחברות עברה בהצלחה!")
@@ -50,7 +54,7 @@ const LoginForm = ({ setIsLoginMode, setIsLoginModalOpen, isNewPostBtn, setIsNew
     return (
         <>
             {isLoading && <LoadingBackdrop title="מתחבר" />}
-            { badLogin && <LoginNotification message="מייל או סיסמא אינם תקינים" />}
+            {badLogin && <LoginNotification message="מייל או סיסמא אינם תקינים" />}
             <div className="form">
                 <div className="form-header">
                     <h3>התחברות</h3>

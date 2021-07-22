@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { LoginContext } from '../../context/LoginContext'
-import { icons } from '../../context/Yad2Context'
+import { icons } from '../../utilities'
 
 const PhoneInput = () => {
 
@@ -37,7 +37,7 @@ const PhoneInput = () => {
         <>
             <label>
                 {!numberFirstOpen && error === '' && <img alt="v" src={icons.checkMark} />}
-            מספר טלפון</label>
+                מספר טלפון</label>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <input
                     id="phone-num-input"

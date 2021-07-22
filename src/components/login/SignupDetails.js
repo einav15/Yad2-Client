@@ -6,8 +6,12 @@ import DatePick from '../DatePick'
 import NameInput from './NameInput'
 import PhoneInput from './PhoneInput'
 import LoadingBackdrop from '../LoadingBackdrop'
+import Cookies from 'universal-cookie';
+
 
 const SignupDetails = ({ setIsLoginModalOpen, isNewPostBtn, setIsNewPostBtn }) => {
+
+    const cookies = new Cookies();
 
     const { signupForm, dispatchSignupForm, dispatchUser } = useContext(LoginContext)
     const history = useHistory()
@@ -22,6 +26,7 @@ const SignupDetails = ({ setIsLoginModalOpen, isNewPostBtn, setIsNewPostBtn }) =
         setIsLoading(true)
         await Axios.post(`${dbUrl}users`, signupForm)
             .then((res) => {
+                cookies.set('user', res.data.token, { path: '/' })
                 dispatchUser({ type: "LOGIN", user: res.data })
                 setIsLoginModalOpen(false)
                 setIsLoading(false)

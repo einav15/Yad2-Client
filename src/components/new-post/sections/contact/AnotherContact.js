@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { icons } from '../../../../context/Yad2Context'
+import { icons } from '../../../../utilities'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ContactInputs from './ContactInputs'
 

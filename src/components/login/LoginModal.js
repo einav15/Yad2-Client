@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
-import { Yad2Context, disableScroll } from '../../context/Yad2Context'
+import { Yad2Context } from '../../context/Yad2Context'
+import { disableScroll } from '../../utilities'
 import Backdrop from '../Backdrop'
 import LoginForm from './LoginForm'
 import SignupForm from './SignupForm'

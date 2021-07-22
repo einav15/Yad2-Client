@@ -13,8 +13,11 @@ const SlidingMenuButton = () => {
     }
 
     const closeMenu = () => {
-        setIsBackdrop(false)
-        setIsMenuOpen(false)
+        document.querySelector('.main-menu__sliding').classList.add('sliding-menu__out')
+        setTimeout(() => {
+            setIsBackdrop(false)
+            setIsMenuOpen(false)
+        }, 1000)
     }
 
     return (

@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react'
 import { useHistory } from 'react-router'
 import { LoginContext } from '../../../context/LoginContext'
-import { disableScroll, Yad2Context } from '../../../context/Yad2Context'
+import { Yad2Context } from '../../../context/Yad2Context'
+import { disableScroll } from '../../../utilities'
 
 import UserButton from './UserButton'
 

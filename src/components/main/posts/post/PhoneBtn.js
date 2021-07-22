@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { icons } from '../../../../context/Yad2Context'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { icons } from '../../../../utilities'
 
 const PhoneBtn = ({ contact }) => {
 

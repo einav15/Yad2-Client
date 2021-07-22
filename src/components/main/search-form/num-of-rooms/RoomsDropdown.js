@@ -4,7 +4,7 @@ import ExpandCollapse from '../ExpandCollapse'
 import NumOfRoomsDropdown from './NumOfRoomsDropdown'
 import NumOfRoomsSelect from './NumOfRoomsSelect'
 
-const RoomsDropdown = ({ setRooms, numOfRooms }) => {
+const RoomsDropdown = ({ setIsDropdownOpen, setRooms, numOfRooms }) => {
 
     const [isDropdownOpenFrom, setIsDropdownOpenFrom] = useState(false)
     const [isDropdownOpenTo, setIsDropdownOpenTo] = useState(false)
@@ -36,22 +36,24 @@ const RoomsDropdown = ({ setRooms, numOfRooms }) => {
     }, [amountFrom, amountTo])
 
     return (
-        <div className="search-dropdown">
-            {screenWidth > 630 ?
-                <div className="rooms-amount-btns__container">
+        <>
+            <div className="search-dropdown">
+                {screenWidth > 630 ?
+                    <div className="rooms-amount-btns__container">
 
-                    <button onClick={onClickFrom} className="search-dropdown__btn rooms-amounts">
-                        <span className={amountFrom > 0 ? "black-text-color" : ""}>{amountFrom === 0 ? "מ-" : amountFrom}</span><ExpandCollapse isDropdownOpen={isDropdownOpenFrom} />
-                        {isDropdownOpenFrom && <NumOfRoomsDropdown setAmount={chooseRoomAmountFrom} />}
-                    </button>
-                    <button onClick={onClickTo} className="search-dropdown__btn rooms-amounts">
-                        <span className={amountTo > 0 ? "black-text-color" : ""}>{amountTo === 0 ? "עד-" : amountTo} </span><ExpandCollapse isDropdownOpen={isDropdownOpenTo} />
-                        {isDropdownOpenTo && <NumOfRoomsDropdown setAmount={chooseRoomAmountTo} amountFrom={amountFrom} to={true} />}
-                    </button>
-                </div> :
-                <NumOfRoomsSelect setFrom={chooseRoomAmountFrom} setTo={chooseRoomAmountTo} amountFrom={amountFrom} amountTo={amountTo} />
-            }
-        </div>
+                        <button type="button" onClick={onClickFrom} className="search-dropdown__btn rooms-amounts">
+                            <span className={amountFrom > 0 ? "black-text-color" : ""}>{amountFrom === 0 ? "מ-" : amountFrom}</span><ExpandCollapse isDropdownOpen={isDropdownOpenFrom} />
+                            {isDropdownOpenFrom && <NumOfRoomsDropdown setAmount={chooseRoomAmountFrom} />}
+                        </button>
+                        <button type="button" onClick={onClickTo} className="search-dropdown__btn rooms-amounts">
+                            <span className={amountTo > 0 ? "black-text-color" : ""}>{amountTo === 0 ? "עד-" : amountTo} </span><ExpandCollapse isDropdownOpen={isDropdownOpenTo} />
+                            {isDropdownOpenTo && <NumOfRoomsDropdown setAmount={chooseRoomAmountTo} amountFrom={amountFrom} to={true} />}
+                        </button>
+                    </div> :
+                    <NumOfRoomsSelect setFrom={chooseRoomAmountFrom} setTo={chooseRoomAmountTo} amountFrom={amountFrom} amountTo={amountTo} />
+                }
+            </div>
+        </>
     )
 }
 

@@ -7,11 +7,11 @@ const separator = (num) => {
 }
 
 const Price = ({ payments, updatedAt }) => {
-    const date = updatedAt
-    const today = new Date(new Date().toJSON().slice(0, 10))
+    const now = new Date()
+    const date = new Date(updatedAt)
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
     const updatedAtParse = () => {
-        const updatedDate = new Date((Date)(date))
-        const updatedAtParsed = date < today ? `${updatedDate.getDay()}/${updatedDate.getMonth()}/${updatedDate.getFullYear()} ` : "עודכן היום"
+        const updatedAtParsed = date < today ? `${date.getDate()}/${date.getMonth()}/${date.getFullYear()} ` : "עודכן היום"
         return updatedAtParsed
     }
 

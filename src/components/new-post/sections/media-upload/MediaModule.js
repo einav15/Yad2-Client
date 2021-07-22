@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Yad2Context, icons } from '../../../../context/Yad2Context'
+import { Yad2Context } from '../../../../context/Yad2Context'
+import { icons } from '../../../../utilities'
+
 
 
 const MediaModule = ({ type, num }) => {

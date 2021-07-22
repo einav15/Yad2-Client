@@ -1,8 +1,13 @@
 import React, { useContext, useState } from 'react'
-import { Yad2Context, icons } from '../../../context/Yad2Context'
+import Cookies from 'universal-cookie';
+import { Yad2Context } from '../../../context/Yad2Context'
 import { LoginContext } from '../../../context/LoginContext'
+import { icons } from '../../../utilities'
+
 
 const UserButton = ({ openLoginModal }) => {
+
+    const cookies = new Cookies();
 
     const { screenWidth } = useContext(Yad2Context)
     const { user, dispatchUser } = useContext(LoginContext)
@@ -19,6 +24,12 @@ const UserButton = ({ openLoginModal }) => {
     const onClickOpenModal = () => {
         if (!user) openLoginModal()
     }
+
+    const logout = () => {
+        dispatchUser({ type: "LOGOUT" })
+        cookies.remove('user')
+    }
+
 
     return (
         screenWidth > 865 && <li onClick={onClickOpenModal} onMouseEnter={onHoverUserBtn} onMouseLeave={offHoverUserBtn}>
@@ -44,7 +55,7 @@ const UserButton = ({ openLoginModal }) => {
                     <img alt="last" id="last-searches-v" src={icons.lastSearches.v} />
                     <p>חיפושים אחרונים</p>
                 </div>
-                {user && <div onClick={() => dispatchUser({ type: "LOGOUT" })} className="dropdown__item">
+                {user && <div onClick={logout} className="dropdown__item">
                     <img alt="logout" src={icons.logout} />
                     <p>התנתקות</p>
                 </div>

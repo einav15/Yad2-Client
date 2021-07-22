@@ -1,22 +1,26 @@
-import React, { useState } from 'react'
+import React from 'react'
 import DropdownItems from './DropdownItems'
-import streetsSearch from '../../../../data/streetsGraph.json'
 
-const Dropdown = ({ input }) => {
+const Dropdown = ({ setAreaInput, setAreaSearch, close, results, areaInput }) => {
 
-    const [streets, setStreets] = useState([])
-    const [cities, setCities] = useState([])
-    const [areas, setAreas] = useState([])
+
+    const deselectArea = () => {
+        setAreaSearch('')
+        setAreaInput('')
+        close()
+    }
 
     return (
-        <div className="search-dropdown">
-            <ul className="search-area-dropdown__list">
-                <li className="search-area-dropdown__main-title" >חפשו אזור, עיר, שכונה או רחוב </li>
-                <DropdownItems name="רחוב" info={streets} />
-                <DropdownItems name="עיר" info={cities} />
-                <DropdownItems name="אזור" info={areas} />
-            </ul>
-        </div>
+        <>
+            <div onClick={deselectArea} className="search__dropdown-overlay" />
+            <div className="search-dropdown">
+                <ul className="search-area-dropdown__list">
+                    <li className="search-area-dropdown__main-title" >חפשו אזור, עיר, שכונה או רחוב </li>
+                    <DropdownItems name="רחוב" close={close} info={results} areaInput={areaInput} />
+                    <DropdownItems name="עיר" close={close} info={results} areaInput={areaInput} />
+                </ul>
+            </div>
+        </>
     )
 }
 

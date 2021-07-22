@@ -42,25 +42,31 @@ const Dropdown = ({ setIsDropdownOpen, checked, setChecked }) => {
         setChecked(dirotChecked + housesChecked + othersChecked)
     }, [setChecked, dirotChecked, housesChecked, othersChecked])
 
+    const deselectArea = () => {
+        setIsDropdownOpen(false)
+    }
 
     return (
-        <div className="search-dropdown">
-            <ul className="asset-types-list">
-                <li className="asset-types-list__main-title">
-                    <div>
-                        <input onChange={onChange} checked={checked} type="checkbox" />
-                        <span>כל סוגי הנכסים</span>
-                        <div className="overlay ol-type" onClick={selectDeselctAll} />
-                    </div>
-                </li>
-                <AssetTypeLists type="דירות" listItems={listItems[0]} setSectionChecked={setDirotChecked} />
-                <AssetTypeLists type="בתים" listItems={listItems[1]} setSectionChecked={setHousesChecked} />
-                <AssetTypeLists type="סוגים נוספים" listItems={listItems[2]} setSectionChecked={setOthersChecked} />
-                <li className="drop-footer">
-                    <button onClick={saveSelection} className="drop-footer__btn">בחירה</button>
-                </li>
-            </ul>
-        </div>
+        <>
+            <div onClick={deselectArea} className="search__dropdown-overlay in-relative" />
+            <div className="search-dropdown">
+                <ul className="asset-types-list">
+                    <li className="asset-types-list__main-title">
+                        <div>
+                            <input onChange={onChange} checked={checked} type="checkbox" />
+                            <span>כל סוגי הנכסים</span>
+                            <div className="overlay ol-type" onClick={selectDeselctAll} />
+                        </div>
+                    </li>
+                    <AssetTypeLists type="דירות" listItems={listItems[0]} setSectionChecked={setDirotChecked} />
+                    <AssetTypeLists type="בתים" listItems={listItems[1]} setSectionChecked={setHousesChecked} />
+                    <AssetTypeLists type="סוגים נוספים" listItems={listItems[2]} setSectionChecked={setOthersChecked} />
+                    <li className="drop-footer">
+                        <button onClick={saveSelection} className="drop-footer__btn">בחירה</button>
+                    </li>
+                </ul>
+            </div>
+        </>
     )
 }
 

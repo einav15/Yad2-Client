@@ -3,6 +3,7 @@
     flex-direction: column;
     max-width: 700px;
     margin-right: 40px;
+    padding-bottom: 5rem;
     @include tablet{
         width: auto;
         margin: 0;
@@ -74,10 +75,86 @@
     }
     .loading-spinner__container{
         width: 100%;
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
+}
+.pic__container{
+    position: relative;
+    .num-of-pics{
+        position: absolute;
+        right: 5px;
+        top: 3px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        background: rgba(255, 255, 255, 0.4);
+        span{
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: black;
+            position: absolute;
+            left:  calc(50% - 1rem);
+            top: calc(50% - 10px);
+        }
+    
+        .pics-amount__svg{
+            position: absolute;
+            left:  calc(50% - 25px);
+            top: calc(50% - 20px);
+            width: 40px;
+            height: 40px;
+            path{
+                fill: rgba(0,0,0,.2);
+            }
+        }
+    }
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.carousel-backdrop{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: auto;
+    ul{
+        max-width: none;
+    }
+    .BrainhubCarousel__arrows{
+        transform: rotate(180deg);
+    }
+    .BrainhubCarousel__trackContainer{
+        direction: ltr;
+    }
+    img{
+        width: 100%;
+    }
+    ul.BrainhubCarousel__track{
+        justify-content: left;
+    }
+    .close-carousel{
+        position: fixed;
+        z-index: 1001;
+        top: 1rem;
+        left: 1rem;
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+        border-radius: 50%;
+        background: white;
+        cursor: pointer;
+        color: $orange;
+        @include mobile{
+            top: 10%;
+        }
+    }
 }

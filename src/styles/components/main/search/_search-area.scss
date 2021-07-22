@@ -1,45 +1,65 @@
-    .area-length .search-dropdown{
-        @include tablet{
-            width: 45%;
+.area-length .search-dropdown{
+    @include tablet{
+        width: 45%;
 
+    }
+    @include mobile{
+        width: 91%;
+    }
+}
+.search-area-dropdown__list{
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    width: 393px;
+    padding: 0;
+    @include tablet{
+        width: 100%;
+
+    }
+    li{
+        padding: 0 10px;
+    }
+    .search-area-dropdown__main-title{
+        color: #989898;
+    }
+    .search-area-dropdown__title{
+        font-weight: 700;
+        background-color: #f4f4f4f4
+    }
+    .search-area-dropdown__item{
+        display: flex;
+        justify-content: space-between;
+        padding: 11px 10px;
+        position: relative;
+        &:hover{
+            cursor: pointer;
+            background: #eeeeee;
         }
-        @include mobile{
-            width: 91%;
+        .area-type{
+            color: grey;
+        }
+        span{
+            font-size: 1rem;
         }
     }
-    .search-area-dropdown__list{
-        list-style: none;
-        line-height: 30px;
-        font-size: 14px;
-        width: 430px;
-        padding: 0;
-        @include mobile{
-         
-        }
-        li{
-            padding: 0 10px;
-        }
-        .search-area-dropdown__main-title{
-            color: #989898;
-        }
-        .search-area-dropdown__title{
-            font-weight: 700;
-            background-color: #f4f4f4f4
-        }
-        .search-area-dropdown__item{
-            display: flex;
-            justify-content: space-between;
-            padding: 11px 10px;
-            &:hover{
-                cursor: pointer;
-                background: #eeeeee;
-            }
-            .area-type{
-                color: grey;
-            }
-            span{
-                font-size: 1rem;
-            }
-        }
-    }
-  
+}
+.area-search__overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+.search__dropdown-overlay{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.in-relative{
+    position: fixed;
+}

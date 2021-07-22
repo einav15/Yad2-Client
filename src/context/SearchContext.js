@@ -28,7 +28,7 @@ export const initialAdvancedSearchState = {
 const SearchContextProvider = (props) => {
 
     //area states
-    const [areaSearch, setAreaSearch] = useState([])
+    const [areaSearch, setAreaSearch] = useState("")
     //asset types states
     const [selectAll, setSelectAll] = useState(false)
     const [deselectAll, setDeselectAll] = useState(false)
@@ -43,13 +43,18 @@ const SearchContextProvider = (props) => {
     const [advancedSearchNumOfFilters, setAdvancedSearchNumOfFilters] = useState(0)
     //results
     const [listings, setListings] = useState([])
+    const [numOfListings, setNumOfListings] = useState(0)
+    //sort name
+    const [title, setTitle] = useState("לפי תאריך")
 
 
 
     return (
         <SearchContext.Provider value={{
             //states and reducers to pass
+            title, setTitle,
             listings, setListings,
+            numOfListings, setNumOfListings,
             selectAll, setSelectAll,
             deselectAll, setDeselectAll,
             selectedTypes, setSelectedTypes,

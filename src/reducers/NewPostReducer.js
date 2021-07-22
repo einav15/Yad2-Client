@@ -1,4 +1,4 @@
-import { newPostInitialState } from "../context/Yad2Context"
+import { newPostInitialState } from "../utilities"
 
 
 export const NewPostEnabledReducer = (state, action) => {

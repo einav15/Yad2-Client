@@ -109,6 +109,7 @@
 }
 
 .property-type-length .search-dropdown{
+    z-index: 100;
     @include tablet{
         width: 100%;
     }

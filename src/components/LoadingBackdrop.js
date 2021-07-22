@@ -8,8 +8,8 @@ const LoadingBackdrop = ({ title }) => {
             <span>
                 <h2>{title}</h2>
                 <Loader
-                    type="Puff"
-                    color="#00BFFF"
+                    type="ThreeDots"
+                    color="#ff7100"
                     height={100}
                     width={100}
                 />

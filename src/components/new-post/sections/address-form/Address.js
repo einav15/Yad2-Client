@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Yad2Context } from '../../../context/Yad2Context'
-import City from './address-form/City'
-import PropertyType from './address-form/PropertyType'
-import Street from './address-form/Street'
-import Floors from './address-form/Floors'
-import NextLastBtns from '../NextLastBtns'
+import { Yad2Context } from '../../../../context/Yad2Context'
+import City from './City'
+import PropertyType from './PropertyType'
+import Street from './Street'
+import Floors from './Floors'
+import NextLastBtns from '../../NextLastBtns'
 
 
 const Address = ({ next, goBackToLastSection }) => {

@@ -7,6 +7,15 @@ import LoadingBackdrop from '../../LoadingBackdrop'
 
 const SubmitForm = () => {
 
+    const setCheckBoxes = (input) => {
+        const checkBoxes = []
+        for (const [key, value] of Object.entries(input)) {
+            if (value)
+                checkBoxes.push(key)
+        }
+        return checkBoxes
+    }
+
     const { newPost, dispatchNewPost } = useContext(Yad2Context)
     const { user } = useContext(LoginContext)
 
@@ -16,6 +25,7 @@ const SubmitForm = () => {
     const onSubmitNewPost = async (e) => {
         e.preventDefault()
         setIsLoading(true)
+        newPost.propertyInfo.properties = setCheckBoxes(newPost.propertyInfo.properties)
         const mediaUrls = { images: [] }
         const sendNewPost = { ...newPost, owner: user.user._id }
         sendNewPost.media = null

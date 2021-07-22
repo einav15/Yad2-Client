@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Yad2Context, icons } from '../../../../context/Yad2Context'
+import { Yad2Context } from '../../../../context/Yad2Context'
+import { icons } from '../../../../utilities'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import propertiesIcons from '../../../../data/propertiesIcons'
 

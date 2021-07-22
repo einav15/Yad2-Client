@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import validator from 'email-validator'
-import { icons } from '../../context/Yad2Context'
+import { icons } from '../../utilities'
 
 // import { Yad2Context } from '../../context/Yad2Context'
 
@@ -37,7 +37,7 @@ const EmailInput = ({ setEmail, type }) => {
         <>
             <label>
                 {type === 'signup' && !emailFirstOpen && emailError === '' && <img alt="v" src={icons.checkMark} />}
-            כתובת מייל
+                כתובת מייל
             </label>
             <input type="email" name="email" className={emailFirstOpen ? "" : emailError ? "error-border" : "valid-border"} value={emailIn} onChange={onChangeEmail} placeholder="your@mail.com" />
             {emailError && <span className="error-text">{emailError}</span>}

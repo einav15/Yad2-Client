@@ -5,6 +5,11 @@
     color: #606060;
 }
 
+html{
+    overflow-x: hidden;
+
+}
+
 .backdrop{
     width: 100vw;
     height: 100vh;
@@ -18,7 +23,6 @@
 
 body{
     background: $light-gray;
-    overflow-x: hidden;
 }
 
 input{

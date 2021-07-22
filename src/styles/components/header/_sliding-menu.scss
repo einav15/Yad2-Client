@@ -19,7 +19,9 @@
         margin-right: 5px !important;
     }
 }
-
+.sliding-menu__out{
+    animation: slideOut 1s forwards !important;
+}
 .main-menu__sliding{
     direction: ltr;
     width: 400px;
@@ -33,6 +35,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    animation: slide 1s forwards;
     @include mobile{
         max-width: 370px;
         width: 100%;

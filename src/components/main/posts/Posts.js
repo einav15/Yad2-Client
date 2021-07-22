@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
+import { SearchContext } from '../../../context/SearchContext'
 import PostsContainer from './post/PostsContainer'
 import SearchFilters from './SearchFilters'
 
 const Posts = () => {
 
-    const [numOfListings, setNumOfListings] = useState(0)
+    const { numOfListings } = useContext(SearchContext)
 
     return (
 
@@ -14,7 +15,7 @@ const Posts = () => {
                 <span>מציג {numOfListings} מודעות</span>
             </div>
             <SearchFilters />
-            <PostsContainer setNumOfListings={setNumOfListings} />
+            <PostsContainer />
         </div>
     )
 }

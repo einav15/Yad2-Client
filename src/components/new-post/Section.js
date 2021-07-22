@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Yad2Context } from '../../context/Yad2Context'
-import Address from './sections/Address'
+import Address from './sections/address-form/Address'
 import Category from './sections/Category'
 import ContactInfo from './sections/contact/ContactInfo'
 import MediaUpload from './sections/media-upload/MediaUpload'

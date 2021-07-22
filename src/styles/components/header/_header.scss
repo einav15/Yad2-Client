@@ -46,6 +46,9 @@ header{
         justify-content: right;
         font-size: 1.1rem;
         padding: 0;
+        @include mobile{
+            font-size: 0.9rem;
+        }
     }   
     .post-page__header.left{
         display: flex;
@@ -88,6 +91,11 @@ header{
             display: flex;
             justify-content: space-between;
             padding: 0 14px;
+            @include mobile{
+                width: auto;
+                border: none;
+                font-weight: 500;
+            }
             span{
                 min-width: 0;
             }

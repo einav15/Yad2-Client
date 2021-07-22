@@ -12,18 +12,20 @@ import { dbUrl } from '../../../context/LoginContext'
 const Form = () => {
 
     const {
-        areaSearch, setAreaSearch,
+        areaSearch,
         assetTypes, setAssetTypes,
         numOfRooms, setNumOfRooms,
         PriceRange, setPriceRange,
         advancedSearchNumOfFilters,
-        advancedSearchOptions
+        advancedSearchOptions,
+        setNumOfListings, setListings
     } = useContext(SearchContext)
 
     const [openAdvancedSearch, setOpenAdvancedSearch] = useState(false)
 
     const search = async (e) => {
         e.preventDefault()
+        setOpenAdvancedSearch(false)
         const filters = {
             areaSearch,
             assetTypes,
@@ -35,7 +37,10 @@ const Form = () => {
             params: {
                 filters
             }
-        }).then((res) => console.log(res.data))
+        }).then((res) => {
+            setListings(res.data.data)
+            setNumOfListings(res.data.length)
+        })
             .catch(e => console.log(e))
     }
 
@@ -46,7 +51,7 @@ const Form = () => {
     return (
         <form onSubmit={search}>
             {openAdvancedSearch && <AdvancedSearch />}
-            <AreaSearch areaSearch={areaSearch} setAreaSearch={setAreaSearch} />
+            <AreaSearch />
             <AssetType assetTypes={assetTypes} setAssetTypes={setAssetTypes} />
             <Rooms numOfRooms={numOfRooms} setNumOfRooms={setNumOfRooms} />
             <Price PriceRange={PriceRange} setPriceRange={setPriceRange} />

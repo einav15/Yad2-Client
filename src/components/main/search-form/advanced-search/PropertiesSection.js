@@ -17,7 +17,7 @@ const PropertiesSection = () => {
                     <PropertiesListItem name='ממ"ד' />
                     <PropertiesListItem name="סורגים" />
                     <PropertiesListItem name="מחסן" />
-                    <PropertiesListItem name="גישה לננכים" />
+                    <PropertiesListItem name="גישה לנכים" />
                     <PropertiesListItem name="משופצת" />
                 </div>
                 <div className="properties-list__row">

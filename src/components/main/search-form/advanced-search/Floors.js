@@ -10,9 +10,6 @@ const Floors = () => {
     const [isDropdownFromOpen, setIsDropdownFromOpen] = useState(false)
     const [isDropdownToOpen, setIsDropdownToOpen] = useState(false)
 
-    const [lowestFloor, setLowestFloor] = useState(-2)
-    const [highestFloor, setHighestFloor] = useState(13)
-
     const openCloseFromDropdown = (e) => {
         if (e.target.src)
             setIsDropdownFromOpen(!isDropdownFromOpen)
@@ -24,24 +21,20 @@ const Floors = () => {
     }
 
     const setLowestFloorLimit = (floor) => {
-        setLowestFloor(floor)
-        if (highestFloor > -1 && highestFloor < floor)
-            setHighestFloor(floor)
+        const floors = { ...advancedSearchOptions.floors }
+        floors[0] = floor
+        if (floors[1] > -1 && floors[1] < floor)
+            floors[1] = floor
+        dispatchAdvancedSearchOptions({ type: "CHANGE_FLOORS", floors })
+
     }
 
     const setHighestFloorLimit = (floor) => {
-        setHighestFloor(floor)
+        const floors = { ...advancedSearchOptions.floors }
+        floors[1] = floor
+        dispatchAdvancedSearchOptions({ type: "CHANGE_FLOORS", floors })
+
     }
-
-    useEffect(() => {
-        dispatchAdvancedSearchOptions({ type: "CHANGE_FLOORS", floors: [lowestFloor, highestFloor] })
-    }, [lowestFloor, highestFloor, dispatchAdvancedSearchOptions])
-
-
-    useEffect(() => {
-        setLowestFloor(advancedSearchOptions.floors[0])
-        setHighestFloor(advancedSearchOptions.floors[1])
-    }, [advancedSearchOptions, setLowestFloor, setHighestFloor])
 
 
     return (
@@ -54,7 +47,7 @@ const Floors = () => {
                         onFocus={() => setIsDropdownFromOpen(true)}
                         placeholder="מ-"
                         onChange={() => { }}
-                        value={lowestFloor > -2 ? (lowestFloor === -1 ? "מרתף/פרטר" : lowestFloor) : ""}
+                        value={advancedSearchOptions.floors[0] > -2 ? (advancedSearchOptions.floors[0] === -1 ? "מרתף/פרטר" : advancedSearchOptions.floors[0]) : ""}
                     />
                     <ExpandCollapse isDropdownOpen={isDropdownFromOpen} />
                     {isDropdownFromOpen && <FloorDropdown setFloor={setLowestFloorLimit} />}
@@ -65,10 +58,10 @@ const Floors = () => {
                         onFocus={() => setIsDropdownToOpen(true)}
                         placeholder="עד-"
                         onChange={() => { }}
-                        value={highestFloor > -2 ? (highestFloor === -1 ? "מרתף/פרטר" : highestFloor !== 13 ? highestFloor : "") : ""}
+                        value={advancedSearchOptions.floors[1] > -2 ? (advancedSearchOptions.floors[1] === -1 ? "מרתף/פרטר" : advancedSearchOptions.floors[1] !== 13 ? advancedSearchOptions.floors[1] : "") : ""}
                     />
                     <ExpandCollapse isDropdownOpen={isDropdownToOpen} />
-                    {isDropdownToOpen && <FloorDropdown setFloor={setHighestFloorLimit} to={true} minimum={lowestFloor} />}
+                    {isDropdownToOpen && <FloorDropdown setFloor={setHighestFloorLimit} to={true} minimum={advancedSearchOptions.floors[0]} />}
                 </span>
             </div>
         </li>
