@@ -9,7 +9,7 @@ import { dbUrl } from "../../../../context/LoginContext";
 import { SearchContext } from "../../../../context/SearchContext";
 
 const PostsContainer = () => {
-  const { screenWidth, isNewPostPage } = useContext(Yad2Context);
+  const { screenWidth } = useContext(Yad2Context);
   const {
     listings,
     setListings,
@@ -59,12 +59,12 @@ const PostsContainer = () => {
   useLayoutEffect(() => {
     const scrollEvent = (e) => {
       const win = e.target.scrollingElement;
-      setIsScrolledToBottom(
-        win.scrollHeight - win.scrollTop === win.clientHeight
-      );
+      setIsScrolledToBottom(false)
+      setTimeout(()=> {
+        setIsScrolledToBottom(win.scrollHeight - win.scrollTop === win.clientHeight);
+      }, 500)
     };
     window.addEventListener("scroll", scrollEvent);
-
     // return window.removeEventListener('scroll', scrollEvent)
   }, []);
 
@@ -94,6 +94,7 @@ const PostsContainer = () => {
       setIsLoading(true);
       getMorePosts();
     }
+
   }, [isScrolledToBottom]);
 
   return (

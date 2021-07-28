@@ -4,7 +4,7 @@ import { disableScroll } from '../../../../utilities'
 import PhoneBtn from './PhoneBtn'
 import PicCarousel from './PicCarousel';
 import PostMainArea from './PostMainArea'
-import PropertyInfo from './ProperyInfo';
+import PropertyInfo from './PropertyInfo';
 
 const separator = (num) => {
     let str = num.toString().split(".");

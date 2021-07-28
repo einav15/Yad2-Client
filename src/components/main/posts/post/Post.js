@@ -3,7 +3,7 @@ import PhoneBtn from './PhoneBtn'
 import PostMainArea from './PostMainArea'
 import Price from './Price'
 import PropertyName from './PropertyName'
-import PropertyInfo from './ProperyInfo'
+import PropertyInfo from './PropertyInfo'
 
 const Post = ({ post }) => {
     const { mediaUrls, address, propertyInfo, payments, contact, updatedAt } = post

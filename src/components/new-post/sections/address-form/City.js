@@ -20,7 +20,7 @@ const City = () => {
     }
 
     const onClickPickCity = (e) => {
-        const chosenCity = e.target.innerText
+        const chosenCity = e.target.parentNode.className === 'input-selector' ? e.target.textContent : e.target.parentNode.textContent
         setTextState(chosenCity)
         const address = newPost.address ? { ...newPost.address } : {}
         address.city = chosenCity

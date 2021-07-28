@@ -4,7 +4,7 @@ import Cookies from 'universal-cookie';
 import SignupReducer from '../reducers/SignupReducer'
 import UsersReducer from '../reducers/UsersReducer'
 export const LoginContext = React.createContext()
-export const dbUrl = "http://localhost:3001/"
+export const dbUrl = "http://localhost:3002/"
 export const signupInitialState = {
     email: '',
     password: '',

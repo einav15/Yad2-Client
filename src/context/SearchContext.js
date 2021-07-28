@@ -47,8 +47,6 @@ const SearchContextProvider = (props) => {
     //sort name
     const [title, setTitle] = useState("לפי תאריך")
 
-
-
     return (
         <SearchContext.Provider value={{
             //states and reducers to pass
