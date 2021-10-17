@@ -42,12 +42,12 @@ A replica of Yad2 website, includes:
 - Mobile
 <div>
 <img src="/screenshots/mobile/1.png" height="540" width="255"  alt="main page"/>
-<img src="/screenshots/2.png" height="540" width="255"  alt="main page"/>
-<img src="/screenshots/3.png" height="540" width="255"  alt="menu"/>
-<img src="/screenshots/4.png" height="540" width="255"  alt="add new post"/>
-<img src="/screenshots/5.png" height="540" width="255"  alt="add new post"/>
-<img src="/screenshots/6.png" height="540" width="255"  alt="add new post"/>
-<img src="/screenshots/7.png" height="540" width="255"  alt="post"/>
-<img src="/screenshots/8.png" height="540" width="255"  alt="login"/>
+<img src="/screenshots/mobile/2.png" height="540" width="255"  alt="main page"/>
+<img src="/screenshots/mobile/3.png" height="540" width="255"  alt="menu"/>
+<img src="/screenshots/mobile/4.png" height="540" width="255"  alt="add new post"/>
+<img src="/screenshots/mobile/5.png" height="540" width="255"  alt="add new post"/>
+<img src="/screenshots/mobile/6.png" height="540" width="255"  alt="add new post"/>
+<img src="/screenshots/mobile/7.png" height="540" width="255"  alt="post"/>
+<img src="/screenshots/mobile/8.png" height="540" width="255"  alt="login"/>
 
 </div>
